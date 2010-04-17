@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: bus_stops
+#
+#  id         :integer(4)      not null, primary key
+#  name       :string(255)     
+#  emt_id     :integer(4)      
+#  longitude  :float           
+#  latitude   :float           
+#  created_at :datetime        
+#  updated_at :datetime        
+#
+
 class BusStop < ActiveRecord::Base
   require 'net/http'
   require 'uri'
