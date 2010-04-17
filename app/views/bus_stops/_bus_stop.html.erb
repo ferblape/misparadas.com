@@ -1,6 +1,17 @@
-<li>
+<% div_for bus_stop do %>
+  <h2>
+    <span class='code'><%= bus_stop.emt_id %></span> <%= bus_stop.name %>
+    <span class='distance'><%= "#{number_with_precision(bus_stop.distance.to_f*1000, :precision => 2)} m."  %></span>
+  </h2>
+  
+  <ul>
+    <% bus_stop.waypoints.each do |route|  %>
+      <li><%= route.name %> hacia <%= route.destination %></li>
+    <% end %>
+  </ul>
+  
   <% form_for Choice.new  do %>
     <%= hidden_field_tag 'bus_stop_id', bus_stop.id %>
-    <button><%= "#{bus_stop.emt_id} - #{bus_stop.name} - #{number_with_precision(bus_stop.distance.to_f*1000, :precision => 2)} m." %></button>
+    <button><%= "Añadir a mis paradas" %></button>
   <% end %>
-</li>
+<% end %>

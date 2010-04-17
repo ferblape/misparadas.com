@@ -12,6 +12,9 @@
 #
 
 class BusStop < ActiveRecord::Base
+  
+  has_many :waypoints
+  
   require 'net/http'
   require 'uri'
   acts_as_mappable :lat_column_name => :latitude,
