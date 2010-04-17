@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  slug: MyString
+  bus_stop_id: 1
+  waypoint_id: 1
+
+two:
+  slug: MyString
+  bus_stop_id: 1
+  waypoint_id: 1

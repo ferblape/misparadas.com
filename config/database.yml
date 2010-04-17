@@ -1,0 +1,7 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: misparadas_development
+  username: root
+  host: localhost
+  password:

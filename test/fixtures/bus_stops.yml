@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  emt_id: 1
+  longtitude: 1.5
+  latitude: 1.5
+
+two:
+  name: MyString
+  emt_id: 1
+  longtitude: 1.5
+  latitude: 1.5

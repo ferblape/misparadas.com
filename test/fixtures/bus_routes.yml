@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  terminal_a: MyString
+  terminal_b: MyString
+  emt_id: 1
+
+two:
+  name: MyString
+  terminal_a: MyString
+  terminal_b: MyString
+  emt_id: 1
