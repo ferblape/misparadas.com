@@ -1,0 +1,7 @@
+*.swp
+.DS_Store
+log/*.log
+log/*.pid
+tmp/**/*
+tmp/*
+db/schema.rb
