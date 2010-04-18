@@ -6,11 +6,6 @@
     MisParadas.com sirve para consultar el horario de los autobuses urbanos de Madrid
     que más usas.
 
-  - if flash[:alert]
-    .flash
-    %p
-      = flash[:alert]
-
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
     .span-7
@@ -20,4 +15,6 @@
 
   .span-8
     = render @locations
+
+    = "<p class='empty'>No hemos encontrado paradas en la dirección que has indicado. Revisa la sintaxis, y si crees que es correcta prueba a poner más información, como calle, o plaza.</p>" if @locations.empty? && params[:q]
 

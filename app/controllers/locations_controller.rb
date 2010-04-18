@@ -4,9 +4,6 @@ class LocationsController < ApplicationController
     if params[:q].present?
       begin
         @locations = Location.find(:all, interpret_search_params(params))
-        if @locations.empty?
-          flash[:alert] = "No hemos encontrado paradas en la dirección que has indicado. Revisa la sintaxis, y si crees que es correcta prueba a poner más información, como calle, o plaza"
-        end
       rescue
         @locations = []
       end

@@ -15,7 +15,7 @@ class ChoicesController < ApplicationController
   def create
     session[:slug] ||= Choice.generate_slug
     
-    @choice = Choice.new(:location_id => params[:location_id], :slug => session[:slug])
+    @choice = Choice.find_or_initialize_by_location_id_and_slug(:location_id => params[:location_id], :slug => session[:slug])
 
     if @choice.save
       flash[:notice] = "We have added your bus stop as a favourite"
