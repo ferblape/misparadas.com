@@ -2,7 +2,6 @@
 %html
   %head
     %title MisParadas.com
-
     %meta{'http-equiv' => "content-language", :content => 'es'}
 
     = stylesheet_link_tag 'blueprint/screen'
@@ -13,13 +12,15 @@
     = stylesheet_link_tag ['content'], :cache => 'app'
     = javascript_include_tag ['jquery', 'jquery-ui', 'jrails', 'json2'], :cache => 'jquery.all'
     = javascript_include_tag 'application'
+
 %body
 
-  .span-12
-    %header.span-12
+  .container.span-12
+    %header.layout
 
-    %section.span-12
+    %section.layout
       = yield
 
-    %footer.span-12
-      footer
+    %footer.layout
+      .span-12
+        footer

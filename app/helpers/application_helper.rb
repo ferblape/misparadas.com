@@ -14,4 +14,16 @@ module ApplicationHelper
     )
   end
 
+  def google_map(lat, lng, opts = {})
+    opts.reverse_merge!({
+      :center => "#{lat},#{lng}",
+      :zoom => "16",
+      :markers => "size:small|color:black|#{lat},#{lng}",
+      :size => "380x220",
+      :sensor => "false"
+    })
+    image_tag("http://maps.google.com/maps/api/staticmap?" + opts.map{|k,v| k.to_s+"="+v}.join('&'),
+      :width => 380, :height => 220)
+  end
+
 end

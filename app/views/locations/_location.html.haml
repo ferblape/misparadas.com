@@ -1,0 +1,19 @@
+%article.location.span-10
+  %header
+    %h1
+      %span.code= location.emt_code
+      = location.name
+      %span.distance= distance_in_meters(location)
+  
+  = google_map location.lat, location.lng
+
+  .routes.span-10
+    - location.routes.each do |route|
+      .span-10.route
+        .span-3= "Linea #{route.line.name}"
+        .span-7.last
+          = "#{route.origin} -> #{route.destination}"
+  
+  - form_for Choice.new do
+    = hidden_field_tag 'location_id', location.id
+    %button Añadir a mis paradas

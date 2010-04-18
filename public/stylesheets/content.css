@@ -53,3 +53,14 @@ body {
   .buttonWrap button:active span.inside {
     background: url('/images/buttons/gradient120.png') 0 0 repeat-x;
     color: #666; }
+
+.locations.index article.location header {
+  display: block;
+  background: #000;
+  -moz-border-radius: 5px 5px 0px 0px;
+  padding: 10px 5px; }
+  .locations.index article.location header h1 {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 15px; }

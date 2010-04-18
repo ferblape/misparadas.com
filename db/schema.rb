@@ -9,30 +9,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100417230424) do
-
-  create_table "bus_routes", :force => true do |t|
-    t.string   "name"
-    t.string   "terminal_a"
-    t.string   "terminal_b"
-    t.integer  "emt_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "bus_stops", :force => true do |t|
-    t.string   "name"
-    t.integer  "emt_id"
-    t.float    "longitude"
-    t.float    "latitude"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(:version => 20100418121659) do
 
   create_table "choices", :force => true do |t|
     t.string   "slug"
-    t.integer  "bus_stop_id"
-    t.integer  "waypoint_id"
+    t.integer  "location_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -56,22 +37,16 @@ ActiveRecord::Schema.define(:version => 20100417230424) do
     t.string   "destination"
     t.integer  "line_id"
     t.string   "name"
+    t.string   "emt_line"
     t.string   "direction"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "origin"
   end
 
   create_table "stops", :force => true do |t|
     t.integer  "route_id"
     t.integer  "location_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "waypoints", :force => true do |t|
-    t.integer  "bus_route_id"
-    t.integer  "bus_stop_id"
-    t.integer  "section"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
