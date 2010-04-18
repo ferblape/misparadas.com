@@ -19,7 +19,7 @@ namespace :emt do
           puts "\t #{line.name} [#{direction} direction]"
           route = Route.find_or_create_by_line_id_and_direction(line.id, direction)
           atts = {:emt_line => emt_line}
-          db.execute("select * from LINE where numberBusLine = #{emt_line}").each do |row2|
+          db.execute("select * from LINE where numberBusLine = '#{pair.first}'").each do |row2|
             direction == "normal" ? atts.merge!({:origin => row2[4], :destination => row2[5]}) : atts.merge!({:origin => row2[5], :destination => row2[4]})
           end
           route.update_attributes(atts)
