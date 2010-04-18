@@ -15,12 +15,13 @@
 
 %body
 
-  .container.span-12
-    %header.layout
+  .container
+    .span-10
+      %header.layout
 
-    %section.layout
-      = yield
+      %section.layout
+        = yield
 
-    %footer.layout
-      .span-12
-        footer
+      %footer.layout
+        .span-12
+          footer

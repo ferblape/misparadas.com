@@ -1,6 +1,10 @@
 body {
   background: #eee; }
 
+.container {
+  width: 380px;
+  margin: 10px auto; }
+
 .buttonWrap {
   float: left; }
   .buttonWrap button {
@@ -54,13 +58,59 @@ body {
     background: url('/images/buttons/gradient120.png') 0 0 repeat-x;
     color: #666; }
 
-.locations.index article.location header {
-  display: block;
-  background: #000;
-  -moz-border-radius: 5px 5px 0px 0px;
-  padding: 10px 5px; }
-  .locations.index article.location header h1 {
-    padding: 0px;
+.locations.index article.location {
+  position: relative;
+  cursor: pointer;
+  margin: 20px 0px; }
+  .locations.index article.location header {
+    display: block;
+    background: #000;
+    -moz-border-radius: 5px 5px 0px 0px;
+    padding: 10px 5px;
+    margin: 0px; }
+    .locations.index article.location header h1 {
+      padding: 0px;
+      margin: 0px;
+      color: #fff;
+      font-size: 15px;
+      text-transform: lowercase;
+      padding: 0px 10px; }
+  .locations.index article.location img {
+    display: block; }
+  .locations.index article.location .routes {
+    background-color: white; }
+    .locations.index article.location .routes .route {
+      border-bottom: 1px solid #eeeeee;
+      font-size: 13px; }
+      .locations.index article.location .routes .route .line {
+        padding: 10px 0px; }
+        .locations.index article.location .routes .route .line span {
+          padding: 10px;
+          color: #333;
+          font-weight: bold; }
+      .locations.index article.location .routes .route .description .label, .locations.index article.location .routes .route .description .name {
+        float: left; }
+      .locations.index article.location .routes .route .description .label {
+        width: 40px;
+        text-align: right;
+        padding-right: 4px;
+        color: #666; }
+      .locations.index article.location .routes .route .description .name {
+        overflow: hidden;
+        height: 20px;
+        text-transform: lowercase;
+        color: #999; }
+  .locations.index article.location form button {
+    display: none; }
+.locations.index article.location:hover {
+  margin: 16px 0px 16px -4px;
+  border: 4px solid #8FB8E0;
+  background-color: #8FB8E0; }
+  .locations.index article.location:hover form button {
+    position: absolute;
+    display: block;
+    border: 0px;
     margin: 0px;
-    color: #fff;
-    font-size: 15px; }
+    bottom: 0px;
+    right: 0px;
+    background-color: #8FB8E0; }
