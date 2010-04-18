@@ -1,5 +1,5 @@
 %article.location.span-10
-  %header
+  %header.roundedTop
     %h1
       %span.code= location.emt_code
       = location.name
@@ -7,7 +7,7 @@
   
   = google_map location.lat, location.lng
 
-  .routes.span-10
+  .routes.span-10.roundedBottom
     - location.routes.each do |route|
       .span-10.route
         .span-3.line

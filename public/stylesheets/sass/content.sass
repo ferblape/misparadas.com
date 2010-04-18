@@ -2,6 +2,27 @@
 body
   background: #eee
 
+.roundedBottom
+  -moz-border-radius-bottom-left: 10px
+  -webkit-border-bottom-left-radius: 10px
+  border-bottom-left-radius: 10px
+  -moz-border-radius-bottom-right: 10px
+  -webkit-border-bottom-right-radius: 10px
+  border-bottom-right-radius: 10px
+
+.roundedTop
+  -moz-border-radius-top-left: 10px
+  -webkit-border-top-left-radius: 10px
+  border-top-left-radius: 10px
+  -moz-border-radius-top-right: 10px
+  -webkit-border-top-right-radius: 10px
+  border-top-right-radius: 10px
+  
+.rounded
+  -moz-border-radius: 5px
+  -webkit-border-radius: 5px
+  border-rounded: 5px
+
 .container
   width: 380px
   margin: 10px auto
@@ -62,6 +83,29 @@ body
       background: url('/images/buttons/gradient120.png') 0 0 repeat-x
       color: #666
 
+.locations.index 
+  h1
+    display: none
+  header
+    h1
+      display: block
+
+p.introduction
+  background: #000 url('/images/sprites.png') 0 -120px no-repeat
+  width: 360px
+  color: #ccc
+  font-size: 15px
+  padding: 10px 10px 30px 10px
+  height: 60px
+  line-height: 130% 
+
+input.text
+  padding: 7px
+  font-size: 13px
+  background: #fff url(/images/textboxbg.png) top left no-repeat
+
+button.buscar
+  position: absolute
 
 .locations.index
   article.location
@@ -71,9 +115,8 @@ body
     header
       display: block
       background: #000
-      -moz-border-radius: 5px 5px 0px 0px
-      padding: 10px 5px
-      margin: 0px
+      text-transform: lowercase
+      padding: 10px
       h1
         padding: 0px
         margin: 0px
@@ -81,17 +124,22 @@ body
         font-size: 15px
         text-transform: lowercase
         padding: 0px 10px 
+        font-weight: bold
     img
       display: block
+      border: solid #ccc 1px
     .routes
       background-color: white
+      border-bottom: solid #ccc 1px
       .route
-        border-bottom: 1px solid #eeeeee
+        padding-top: 10px
+        border-top: 1px solid #eeeeee
         font-size: 13px
+        line-height: 120%
         .line
-          padding: 10px 0px
+          padding: 0 0 15px 0px
           span
-            padding: 10px
+            padding: 0 0 0 15px
             color: #333
             font-weight: bold
         .description
@@ -124,7 +172,12 @@ body
         right: 0px
         background-color: #8FB8E0
 
-
-    
-
-
+footer.layout
+  background: transparent url(/images/footer.png) top left no-repeat
+  height: 200px
+  padding: 85px 0 0 0
+  margin-top: 100px
+  display: block
+  color: #777
+  
+  
