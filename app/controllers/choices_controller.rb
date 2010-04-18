@@ -6,7 +6,10 @@ class ChoicesController < ApplicationController
       redirect_to slug_path(:slug => session[:slug]) 
     end
     
-    @choices = Choice.find_all_by_slug(session[:slug]) || (redirect_to locations_path and return)
+    @choices = Choice.find_all_by_slug(session[:slug]) 
+    if @choices.empty? 
+      (redirect_to locations_path and return)
+    end
   end
 
   def create
@@ -37,7 +40,7 @@ class ChoicesController < ApplicationController
   def destroy
     @choice = Choice.find(params[:id])
     if @choice.destroy
-      redirect_to choices_path
+      redirect_to :back
     end
   end
   
