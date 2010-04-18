@@ -1,7 +1,0 @@
-<h1>Mis paradas</h1>
-
-<ul>
-<% @choices.each do |choice| %>
-  <li><strong><%= choice.bus_stop.name %></strong> <span><%= choice.bus_stop.arrivals %></span></li>
-<% end %>
-</ul>

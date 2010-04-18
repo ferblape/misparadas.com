@@ -1,0 +1,13 @@
+tmp/*
+log/*
+public/uploads/*
+vendor/rails
+nbproject
+.svn
+db/schema.rb
+.DS_Store
+db/*.sqlite3
+*.swp
+*.swo
+public/images/tmp/*
+public/system/*

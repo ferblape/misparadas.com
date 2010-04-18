@@ -1,0 +1,18 @@
+.busStops.index
+
+  %h1 Mis Paradas 
+
+  %p.introduction
+    Mis paradas sirve para consultar el horario de los autobuses
+    que más usas. Así no sufrirás las inclemencias del clima de Madrid.
+
+  - form_for :bus_stop, :url => bus_stops_path, :html => {:method => :get} do
+    
+    .span-8
+      = label_tag :search, "Search by address"
+      = text_field_tag 'address', params[:address], :class => 'title span-8'
+
+    = button_tag "Buscar", :type => 'submit'
+
+  .span-8
+    = render @bus_stops
