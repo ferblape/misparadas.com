@@ -1,6 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   
-  map.root :controller => 'locations'
+  map.root :controller => 'choices'
   
   map.resources :locations
   
