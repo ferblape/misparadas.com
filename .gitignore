@@ -1,3 +1,18 @@
+<<<<<<< HEAD:.gitignore
+tmp/*
+log/*
+public/uploads/*
+vendor/rails
+nbproject
+.svn
+db/schema.rb
+.DS_Store
+db/*.sqlite3
+*.swp
+*.swo
+public/images/tmp/*
+public/system/*
+=======
 *.swp
 .DS_Store
 log/*.log
@@ -5,3 +20,4 @@ log/*.pid
 tmp/**/*
 tmp/*
 db/schema.rb
+>>>>>>> bb62f96e165bee809033ae05690d9705ed0f97a6:.gitignore

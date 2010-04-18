@@ -25,6 +25,7 @@ Rails::Initializer.run do |config|
 
   config.gem "hpricot"
   config.gem "geokit"
+  config.gem "haml"
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -45,5 +46,9 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
+
+Haml::Template.options[:format] = :html5
+
+ActiveRecord::Base.include_root_in_json = false
 
 require 'core'

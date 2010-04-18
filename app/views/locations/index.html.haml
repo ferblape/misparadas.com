@@ -1,0 +1,18 @@
+.locations.index
+
+  %h1 Mis Paradas 
+
+  %p.introduction
+    MisParadas.com sirve para consultar el horario de los autobuses
+    que más usas. Así no sufrirás las inclemencias del clima de Madrid.
+
+  - form_for :location, :url => locations_url, :html => {:method => :get} do
+    
+    .span-8
+      = text_field_tag 'q', params[:q], :class => 'title span-8'
+
+    = button_tag "Buscar", :type => 'submit'
+
+  .span-8
+    = render @locations
+

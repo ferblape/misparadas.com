@@ -1,0 +1,66 @@
+body {
+  background: #eee; }
+
+.buttonWrap {
+  float: left; }
+  .buttonWrap button {
+    outline: none;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: 40px;
+    border: 0px;
+    font-size: 14px; }
+    .buttonWrap button span {
+      display: block;
+      float: left;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px; }
+    .buttonWrap button span.outside {
+      border: 3px solid transparent; }
+    .buttonWrap button span.inside {
+      color: #000;
+      background: url('/images/buttons/gradient.gif') 0 0 repeat-x;
+      width: 83px;
+      line-height: 22px;
+      padding: 4px 10px 4px 7px;
+      text-align: center;
+      border: 1px solid #ccc;
+      font-weight: normal;
+      -moz-box-shadow: 0 1px 1px #999;
+      -webkit-box-shadow: 0 1px 1px #999;
+      text-shadow: 0px 1px 1px #fff; }
+  .buttonWrap button[type] {
+    padding: 0px;
+    border: 0px;
+    line-height: 30px;
+    outline: none; }
+
+.buttonWrap:hover button span.outside {
+  border: 3px solid #8FB8E0;
+  border-top: 2px solid #8FB8E0; }
+.buttonWrap:hover button span.inside {
+  -moz-box-shadow: 0 0px 0px #ccc;
+  -webkit-box-shadow: 0 0px 0px #ccc;
+  color: #000; }
+
+.buttonWrap button:active {
+  outline: none; }
+  .buttonWrap button:active span.outside {
+    border: 2px solid #999;
+    border-top: 2px solid #999; }
+  .buttonWrap button:active span.inside {
+    background: url('/images/buttons/gradient120.png') 0 0 repeat-x;
+    color: #666; }
+
+.locations.index article.location header {
+  display: block;
+  background: #000;
+  -moz-border-radius: 5px 5px 0px 0px;
+  padding: 10px 5px; }
+  .locations.index article.location header h1 {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 15px; }
