@@ -18,7 +18,11 @@ namespace :emt do
           line = Line.find_or_create_by_name(pair.first)
           puts "\t #{line.name} [#{direction} direction]"
           route = Route.find_or_create_by_line_id_and_direction(line.id, direction)
-          route.update_attributes(:emt_line => emt_line)
+          atts = {:emt_line => emt_line}
+          db.execute("select * from LINES where numberBusLine = #{row[0]}").each do |row2|
+            direction == "normal" ? atts.merge!({:origin => row2[4], :destination => row2[5]}) : atts.merge!({:origin => row2[5], :destination => row2[4]})
+          end
+          route.update_attributes(atts)
           location.routes << route
         end
       rescue
@@ -65,6 +69,7 @@ namespace :emt do
         {
           :direction => normal ? 'normal' : 'reverse',
           :name => (remote_route/:Name).inner_html, 
+          :emt_code => (remote_route/:Node).inner_html,
           :emt_line => emt_line[:emt_line],
           :origin => normal ? emt_line[:name_a] : emt_line[:name_b],
           :destination => normal ? emt_line[:name_b] : emt_line[:name_a]
@@ -73,8 +78,14 @@ namespace :emt do
       
       # Create routes for the line
       remote_routes.each do |remote_route|        
+        emt_code = remote_route.delete(:emt_code)
         route = line.routes.create remote_route
         puts "  creating route: #{route.name}"
+        begin
+          Location.find_by_emt_code(emt_code).routes << route
+        rescue
+          puts "Location #{emt_code} - #{$!}"
+        end
       end
     end
 
