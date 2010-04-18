@@ -1,15 +1,11 @@
 
 $(document).ready(function() {
 
-  $.Locations.bindings();
-<<<<<<< HEAD:public/javascripts/application.js
   $('input.text.rounded').focus();
 
-=======
-  
+  $.Locations.bindings();
+
   Estimates.fetch();
-  
->>>>>>> e60b96e39b3e52cdf42af312c26e22988ea26442:public/javascripts/application.js
 });
 
 
