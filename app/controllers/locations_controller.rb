@@ -16,6 +16,13 @@ class LocationsController < ApplicationController
     end
   end
 
+  def arrivals
+    @location = Location.find(params[:id])
+    respond_to do |wants|
+      wants.json {  render :json => @location.route_arrivals.to_json }
+    end
+  end
+
   def show
   end
 

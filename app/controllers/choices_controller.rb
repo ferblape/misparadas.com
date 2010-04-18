@@ -30,7 +30,7 @@ class ChoicesController < ApplicationController
     @choice = Choice.find(params[:id])
     if @choice.update_attributes(params[:choice])
       flash[:notice] = "We have added your bus stop as a favourite"
-      redirect_to choices_path
+      redirect_to :back
     else
       flash[:error] = "We couldn't save your bus stop"
       redirect_to :back
