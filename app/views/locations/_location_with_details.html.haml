@@ -1,5 +1,5 @@
 %article.location.details.span-10{'data-expected-url' => arrivals_location_url(location), :id => dom_id(location)}
-  %header
+  %header.roundedTop
     - form_for choice, :html => {:method => :delete} do |f|
       %button.delete.clean{:type => 'submit', :onclick => 'return confirm("¿Estás seguro?")'}
         = image_tag 'buttons/cross_black.png'
@@ -8,7 +8,7 @@
       = location.name
       %span.distance= distance_in_meters(location)
 
-  .routes.span-10
+  .routes.span-10.roundedBottom
     - location.routes.each do |route|
       
       .route.span-10{:id => dom_id(route), :class => favourite_class_if(choice.favourite_route == route)}
