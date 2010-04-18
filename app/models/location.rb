@@ -5,11 +5,19 @@ class Location < ActiveRecord::Base
   
   acts_as_mappable  :default_units => :kms
 
-  def route_arrivals(name)
+  def route_arrivals
     url = URI.parse(AppConfig.urls.arrivals % emt_code)
-    res = Net::HTTP.get(url)
-    arrivals = res.split('Lin.')[1..-1].collect{|arrival| arrival.split(':')}
-    arrivals.assoc(name).try(:last)
+    
+    # Ent.Par.
+    # \d.+ min.
+    # 
+    pairs = Net::HTTP.get(url).strip_tags.split('Lin.')[1..-1].collect {|pair| pair.split(':')}
+  
+    arrivals = {}
+    pairs.each do  |pair|
+      arrivals[pair.first.strip] = pair.last.strip
+    end
+    arrivals
   end
 
 end
