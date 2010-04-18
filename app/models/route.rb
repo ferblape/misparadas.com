@@ -8,7 +8,7 @@ class Route < ActiveRecord::Base
   validates_presence_of :direction, :line_id
 
   def expected_at(location)
-    location.route_arrivals(line.name)
+    "<span class='expected' id='estimate_route_#{line.name}'>...</span>"
   end
   
 end

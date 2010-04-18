@@ -7,6 +7,11 @@
       Busca los horarios de la EMT Madrid<br />
     Escribe un número de autobús o una dirección cercana a la parada que deseas utilizar
 
+  - if flash[:alert]
+    .flash
+    %p
+      = flash[:alert]
+
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
     .span-7

@@ -2,11 +2,13 @@ ActionController::Routing::Routes.draw do |map|
   
   map.root :controller => 'choices'
   
-  map.resources :locations
+  map.resources :locations, :member => {:arrivals => :get}
   
   map.resources :choices, :except => :index
 
   map.slug 's/:slug', :controller => 'choices', :action => 'index'
+  
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

@@ -28,6 +28,16 @@ body
   width: 380px
   margin: 0 auto
 
+button.clean
+  padding: 0px
+  margin: 0px
+  background: transparent
+  border: 0px
+button.clean:hover
+  padding: 0px
+  background: transparent
+  border: 0px
+
 .buttonWrap
   float: left
   button
@@ -92,14 +102,13 @@ input.text
 button.buscar
   position: absolute
 
-.locations.index
+.locations.index, .choices.index
   article.location
     position: relative
-    cursor: pointer
     margin: 20px 0px
     header
       display: block
-      background: #000
+      background: #000 url('/images/backgrounds/dark_gradient.png') 0 0 repeat-x
       text-transform: lowercase
       padding: 10px
       h1
@@ -110,6 +119,10 @@ button.buscar
         text-transform: lowercase
         padding: 0px 10px 
         font-weight: bold
+
+.locations.index
+  article.location
+    cursor: pointer
     img
       display: block
       border: solid #ccc 1px
@@ -156,6 +169,44 @@ button.buscar
         bottom: 0px
         right: 0px
         background-color: #8FB8E0
+
+.choices.index
+  article.location
+    header
+      button
+        display: none
+    header:hover
+      button
+        display: block
+        position: absolute
+        left: -19px
+        top: 4px
+        img
+          width: 16px
+          height: 25px
+    .routes
+      background-color: white
+      font-size: 13px 
+      .route
+        border-bottom: 1px solid #eee
+        padding: 8px 0px
+      button
+        height: 20px
+        width: 22px
+        margin: -2px 0px 0px 10px
+
+      .lineDest
+        line-height: 18px
+        vertical-align: middle
+        .line
+          font-weight: bold
+          color: #333
+        .destination
+          color: #999
+          text-transform: lowercase
+      .expected
+        color: #666666
+        font-size: 11px
 
 header.layout
   background: transparent url(/images/footer.png) 0 -1px no-repeat

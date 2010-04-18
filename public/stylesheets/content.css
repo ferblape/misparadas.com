@@ -27,6 +27,17 @@ body {
   width: 380px;
   margin: 0 auto; }
 
+button.clean {
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+  border: 0px; }
+
+button.clean:hover {
+  padding: 0px;
+  background: transparent;
+  border: 0px; }
+
 .buttonWrap {
   float: left; }
   .buttonWrap button {
@@ -85,16 +96,15 @@ input.text {
 button.buscar {
   position: absolute; }
 
-.locations.index article.location {
+.locations.index article.location, .choices.index article.location {
   position: relative;
-  cursor: pointer;
   margin: 20px 0px; }
-  .locations.index article.location header {
+  .locations.index article.location header, .choices.index article.location header {
     display: block;
-    background: #000;
+    background: #000 url('/images/backgrounds/dark_gradient.png') 0 0 repeat-x;
     text-transform: lowercase;
     padding: 10px; }
-    .locations.index article.location header h1 {
+    .locations.index article.location header h1, .choices.index article.location header h1 {
       padding: 0px;
       margin: 0px;
       color: #fff;
@@ -102,6 +112,9 @@ button.buscar {
       text-transform: lowercase;
       padding: 0px 10px;
       font-weight: bold; }
+
+.locations.index article.location {
+  cursor: pointer; }
   .locations.index article.location img {
     display: block;
     border: solid #ccc 1px; }
@@ -145,6 +158,39 @@ button.buscar {
     bottom: 0px;
     right: 0px;
     background-color: #8FB8E0; }
+
+.choices.index article.location header button {
+  display: none; }
+.choices.index article.location header:hover button {
+  display: block;
+  position: absolute;
+  left: -19px;
+  top: 4px; }
+  .choices.index article.location header:hover button img {
+    width: 16px;
+    height: 25px; }
+.choices.index article.location .routes {
+  background-color: white;
+  font-size: 13px; }
+  .choices.index article.location .routes .route {
+    border-bottom: 1px solid #eee;
+    padding: 8px 0px; }
+  .choices.index article.location .routes button {
+    height: 20px;
+    width: 22px;
+    margin: -2px 0px 0px 10px; }
+  .choices.index article.location .routes .lineDest {
+    line-height: 18px;
+    vertical-align: middle; }
+    .choices.index article.location .routes .lineDest .line {
+      font-weight: bold;
+      color: #333; }
+    .choices.index article.location .routes .lineDest .destination {
+      color: #999;
+      text-transform: lowercase; }
+  .choices.index article.location .routes .expected {
+    color: #666666;
+    font-size: 11px; }
 
 header.layout {
   background: transparent url(/images/footer.png) 0 -1px no-repeat;

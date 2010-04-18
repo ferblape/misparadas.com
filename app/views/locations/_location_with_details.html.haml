@@ -1,0 +1,37 @@
+%article.location.details.span-10{'data-expected-url' => arrivals_location_url(location), :id => dom_id(location)}
+  %header
+    - form_for choice, :html => {:method => :delete} do |f|
+      %button.delete.clean{:type => 'submit', :onclick => 'return confirm("¿Estás seguro?")'}
+        = image_tag 'buttons/cross_black.png'
+    %h1
+      %span.code= location.emt_code
+      = location.name
+      %span.distance= distance_in_meters(location)
+
+  .routes.span-10
+    - location.routes.each do |route|
+      
+      .route.span-10{:id => dom_id(route), :class => favourite_class_if(choice.favourite_route == route)}
+        .span-1.save
+          - if choice.favourite_route == route
+            %button.clean{:type => 'submit'}
+              = image_tag 'buttons/star_selected.png'
+          - else
+            - form_for choice, :html => {:method => :put} do |f|
+              = f.hidden_field :favourite_route_id, :value => route.id
+              %button.clean{:type => 'submit'}
+                = image_tag 'buttons/star_empty.png'
+
+        .span-6.lineDest
+          %span.line
+            Linea
+            = route.line.name
+          %span.destination
+            &rarr;
+            = route.destination
+        .span-3.last
+          -# if choice.favourite_route == route
+          = route.expected_at(location)
+
+  %footer
+
