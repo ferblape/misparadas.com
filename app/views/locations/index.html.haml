@@ -3,8 +3,8 @@
   %h1 Mis Paradas 
 
   %p.introduction
-    MisParadas.com sirve para consultar el horario de los autobuses
-    que más usas. Así no sufrirás las inclemencias del clima de Madrid.
+    MisParadas.com sirve para consultar el horario de los autobuses urbanos de Madrid
+    que más usas.
 
   - if flash[:alert]
     .flash
@@ -13,10 +13,10 @@
 
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
-    .span-6
-      = text_field_tag 'q', params[:q] || "Muestráme paradas de autobus cerca de.." , :class => 'text span-6'
+    .span-7
+      = text_field_tag 'q', params[:q] || "Paradas de autobus cerca de.." , :class => 'text span-7 rounded'
 
-    = button_tag "Buscar", :type => 'submit'
+    = button_tag "Buscar", :type => 'submit', :class => 'buscar'
 
   .span-8
     = render @locations
