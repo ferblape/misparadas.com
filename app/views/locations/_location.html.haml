@@ -10,10 +10,21 @@
   .routes.span-10
     - location.routes.each do |route|
       .span-10.route
-        .span-3= "Linea #{route.line.name}"
-        .span-7.last
-          = "#{route.origin} -> #{route.destination}"
-  
-  - form_for Choice.new do
-    = hidden_field_tag 'location_id', location.id
-    %button Añadir a mis paradas
+        .span-3.line
+          %span
+            = "Linea #{route.line.name}"
+        .span-7.last.description
+          .span-7
+            .label desde:
+            .name= route.origin
+          .span-7
+            .label hasta:
+            .name= route.destination
+
+  %footer
+    - form_for Choice.new do
+      = hidden_field_tag 'location_id', location.id
+      %button Añadir a mis paradas
+
+
+

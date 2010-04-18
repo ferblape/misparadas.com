@@ -19,11 +19,12 @@ module ApplicationHelper
       :center => "#{lat},#{lng}",
       :zoom => "16",
       :markers => "size:small|color:black|#{lat},#{lng}",
-      :size => "380x220",
+      :size => "380x300",
       :sensor => "false"
     })
+    (wd, ht) = opts[:size].split('x')
     image_tag("http://maps.google.com/maps/api/staticmap?" + opts.map{|k,v| k.to_s+"="+v}.join('&'),
-      :width => 380, :height => 220)
+      :width => wd, :height => ht)
   end
 
 end
