@@ -13,7 +13,7 @@ $.Locations = {
 
   bindings: function() {
     // $('article.location form').hide();
-    $('article.location').live('click', function() {
+    $('.locations.index article.location').live('click', function() {
       $(this).find('form').submit(); 
       return false;
     });
@@ -23,11 +23,11 @@ $.Locations = {
 
 var Estimates = {
   fetch: function() {
-    $('div.location').each(function() {
-      var id = $(this).attr('id').replace('_','s/');
-      $.get('/' + id + '/arrivals', function(data) {  
+    $('article.location').each(function() {
+      var loc = $(this);
+      $.get($(this).attr('data-expected-url'), function(data) {  
         for (var i in data) {
-          $('#estimate_route_' + i).html(data[i]);  
+          loc.find('.expected').html(data[i]);  
         }
       }, 'json');
     });

@@ -1,4 +1,4 @@
-%article.location.details.span-10
+%article.location.details.span-10{'data-expected-url' => arrivals_location_url(location), :id => dom_id(location)}
   %header
     %h1
       %span.code= location.emt_code
@@ -24,9 +24,8 @@
             &rarr;
             = route.destination
         .span-3.last
-          %span.expected
-            -# Llega en 2min
-            = route.expected_at(location)
+          -# Llega en 2min
+          = route.expected_at(location)
 
   %footer
     - form_for choice, :html => {:method => :delete} do |f|

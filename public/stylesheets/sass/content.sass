@@ -6,6 +6,16 @@ body
   width: 380px
   margin: 10px auto
 
+button.clean
+  padding: 0px
+  margin: 0px
+  background: transparent
+  border: 0px
+button.clean:hover
+  padding: 0px
+  background: transparent
+  border: 0px
+
 .buttonWrap
   float: left
   button
@@ -63,10 +73,9 @@ body
       color: #666
 
 
-.locations.index
+.locations.index, .choices.index
   article.location
     position: relative
-    cursor: pointer
     margin: 20px 0px
     header
       display: block
@@ -81,6 +90,11 @@ body
         font-size: 15px
         text-transform: lowercase
         padding: 0px 10px 
+
+
+.locations.index
+  article.location
+    cursor: pointer
     img
       display: block
     .routes
@@ -124,7 +138,31 @@ body
         right: 0px
         background-color: #8FB8E0
 
+.choices.index
+  .routes
+    background-color: white
+    font-size: 13px 
+    .route
+      border-bottom: 1px solid #eee
+      padding: 8px 0px
+    button
+      height: 20px
+      width: 22px
+      margin: -2px 0px 0px 10px
 
+
+    .lineDest
+      line-height: 18px
+      vertical-align: middle
+      .line
+        font-weight: bold
+        color: #333
+      .destination
+        color: #999
+        text-transform: lowercase
+    .expected
+      color: #666666
+      font-size: 11px
     
 
 
