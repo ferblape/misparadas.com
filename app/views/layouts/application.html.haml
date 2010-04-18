@@ -14,13 +14,15 @@
     = javascript_include_tag 'application'
 
 %body
-
+  %header.layout
+    %strong
+      %a{:href => "/acerca"}
+        Acerca de
   .container
     .span-10
-      %header.layout.span-10
 
       %section.layout.span-10
         = yield
 
-      %footer.layout.span-10
-        Un proyecto de <a href="http://samlown.com">Sam Lown</a>, <a href="http://www.inwebwetrust.net/">Fernando Blat</a>, <a href="http://42linesofcode.com/">Christos Zisopoulos</a> y <a href="http://blog.duopixel.com/">Mark MacKay</a> para <a href="http://abredatos.es">AbreDatos</a> 2010.
+      %footer.layout
+        .span-10

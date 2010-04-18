@@ -1,6 +1,7 @@
 
 body
-  background: #eee
+  background: #eee url(/images/bodybg.png) 0 -1px repeat-x
+  margin-bottom: 50px
 
 .roundedBottom
   -moz-border-radius-bottom-left: 10px
@@ -25,7 +26,7 @@ body
 
 .container
   width: 380px
-  margin: 10px auto
+  margin: 0 auto
 
 button.clean
   padding: 0px
@@ -41,31 +42,20 @@ button.clean:hover
   float: left
   button
     outline: none
-    background: transparent
+    background: transparent url(/images/sprites.png) -151px 0 no-repeat
     padding: 0px
     margin: 0px
     width: auto 
     height: 40px
     border: 0px
     font-size: 14px
-    span
-      display: block
-      float: left
-      -moz-border-radius: 20px 
-      -webkit-border-radius: 20px 
-    span.outside
-      border: 3px solid transparent 
+    width: 110px 
+
     span.inside
       color: #000
-      background: url('/images/buttons/gradient.gif') 0 0 repeat-x
-      width: 83px 
       line-height: 22px
-      padding: 4px 10px 4px 7px
       text-align: center
-      border: 1px solid #ccc
       font-weight: normal
-      -moz-box-shadow: 0 1px 1px #999
-      -webkit-box-shadow: 0 1px 1px #999
       text-shadow: 0px 1px 1px #fff
   button[type]
     padding: 0px
@@ -75,23 +65,13 @@ button.clean:hover
 
 .buttonWrap:hover
   button
-    span.outside
-      border: 3px solid #8FB8E0
-      border-top: 2px solid #8FB8E0
-    span.inside
-      -moz-box-shadow: 0 0px 0px #ccc
-      -webkit-box-shadow: 0 0px 0px #ccc
-      color: #000 
+    background-position: -151px -40px
 
 .buttonWrap
   button:active
     outline: none
-    span.outside
-      border: 2px solid #999
-      border-top: 2px solid #999
-    span.inside
-      background: url('/images/buttons/gradient120.png') 0 0 repeat-x
-      color: #666
+    background-position: -151px -80px
+    
 
 .locations.index 
   h1
@@ -108,11 +88,16 @@ p.introduction
   padding: 10px 10px 30px 10px
   height: 60px
   line-height: 130% 
+  margin-bottom: 3px
+  strong
+    color: #fff
 
 input.text
   padding: 7px
   font-size: 13px
   background: #fff url(/images/textboxbg.png) top left no-repeat
+  position: relative
+  top: -3px
 
 button.buscar
   position: absolute
@@ -222,15 +207,13 @@ button.buscar
       .expected
         color: #666666
         font-size: 11px
-      
 
-
-footer.layout
-  background: transparent url(/images/footer.png) top left no-repeat
-  height: 200px
-  padding: 85px 0 0 0
-  margin-top: 100px
+header.layout
+  background: transparent url(/images/footer.png) 0 -1px no-repeat
+  padding:  7px 10px 85px 0
   display: block
-  color: #777
+  text-align: right
+  a
+    color: #09f
   
   
