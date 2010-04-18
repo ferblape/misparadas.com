@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TABLA>
+  <RESULTADO>0</RESULTADO>
+  <DESCRIPCION>Resultado de la operacion Correcta</DESCRIPCION>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>29/11/2009                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>001</Line>
+    <Label>1</Label>
+    <NameA>PLAZA DE CRISTO REY</NameA>
+    <NameB>PROSPERIDAD</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>03/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>002</Line>
+    <Label>2</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>AVENIDA DE REINA VICTORIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/01/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>003</Line>
+    <Label>3</Label>
+    <NameA>PUERTA DE TOLEDO</NameA>
+    <NameB>PLAZA DE SAN AMARO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>25/02/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>004</Line>
+    <Label>4</Label>
+    <NameA>PLAZA DE CIUDAD LINEAL</NameA>
+    <NameB>PUERTA DE ARGANDA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/02/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>005</Line>
+    <Label>5</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>ESTACION DE CHAMARTIN</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>17/02/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>006</Line>
+    <Label>6</Label>
+    <NameA>PLAZA DE BENAVENTE</NameA>
+    <NameB>ORCASITAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>01/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>007</Line>
+    <Label>7</Label>
+    <NameA>PLAZA ALONSO MARTINEZ</NameA>
+    <NameB>MANOTERAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/03/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>008</Line>
+    <Label>8</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>VALDEBERNARDO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>17/06/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>009</Line>
+    <Label>9</Label>
+    <NameA>SEVILLA</NameA>
+    <NameB>HORTALEZA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>010</Line>
+    <Label>10</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>PALOMERAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>13/02/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>011</Line>
+    <Label>11</Label>
+    <NameA>MARQUES DE VIANA</NameA>
+    <NameB>BARRIO BLANCO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>16/06/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>012</Line>
+    <Label>12</Label>
+    <NameA>PLAZA DE CRISTO REY</NameA>
+    <NameB>PASEO MARQUES DE ZAFRA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>014</Line>
+    <Label>14</Label>
+    <NameA>PLAZA DE CONDE DE CASAL</NameA>
+    <NameB>AVENIDA DE PIO XII</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>015</Line>
+    <Label>15</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>LA ELIPA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>016</Line>
+    <Label>16</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>AVENIDA DE PIO XII</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>17/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>017</Line>
+    <Label>17</Label>
+    <NameA>PLAZA MAYOR</NameA>
+    <NameB>COLONIA PARQUE DE EUROPA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>018</Line>
+    <Label>18</Label>
+    <NameA>PLAZA MAYOR</NameA>
+    <NameB>VILLAVERDE CRUCE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>019</Line>
+    <Label>19</Label>
+    <NameA>PLAZA DE CATALUÑA</NameA>
+    <NameB>PLAZA DE LEGAZPI</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>020</Line>
+    <Label>20</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>PAVONES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>021</Line>
+    <Label>21</Label>
+    <NameA>PASEO DEL PINTOR ROSALES</NameA>
+    <NameB>BARRIO EL SALVADOR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>022</Line>
+    <Label>22</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>VILLAVERDE ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>023</Line>
+    <Label>23</Label>
+    <NameA>PLAZA MAYOR</NameA>
+    <NameB>EL ESPINILLO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>17/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>024</Line>
+    <Label>24</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>POZO DEL TIO RAIMUNDO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>17/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>025</Line>
+    <Label>25</Label>
+    <NameA>OPERA</NameA>
+    <NameB>CASA DE CAMPO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>026</Line>
+    <Label>26</Label>
+    <NameA>PLAZA DE TIRSO DE MOLINA</NameA>
+    <NameB>DIEGO DE LEON</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/02/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>027</Line>
+    <Label>27</Label>
+    <NameA>GLORIETA DE EMBAJADORES</NameA>
+    <NameB>PLAZA DE CASTILLA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>30/03/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>028</Line>
+    <Label>28</Label>
+    <NameA>PUERTA DE ALCALA</NameA>
+    <NameB>BARRIO DE CANILLEJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>029</Line>
+    <Label>29</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>MANOTERAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>030</Line>
+    <Label>30</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>PAVONES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>19/03/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>031</Line>
+    <Label>31</Label>
+    <NameA>PLAZA MAYOR</NameA>
+    <NameB>ALUCHE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>032</Line>
+    <Label>32</Label>
+    <NameA>PLAZA DE BENAVENTE</NameA>
+    <NameB>PAVONES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>033</Line>
+    <Label>33</Label>
+    <NameA>PRINCIPE PIO</NameA>
+    <NameB>CASA DE CAMPO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>034</Line>
+    <Label>34</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>AVENIDA DEL GENERAL FANJUL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>035</Line>
+    <Label>35</Label>
+    <NameA>PLAZA MAYOR</NameA>
+    <NameB>CARABANCHEL ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>13/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>036</Line>
+    <Label>36</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>CAMPAMENTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>037</Line>
+    <Label>37</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>PUENTE DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>27/06/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>038</Line>
+    <Label>38</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>LAS ROSAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>27/08/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>039</Line>
+    <Label>39</Label>
+    <NameA>OPERA</NameA>
+    <NameB>COLONIA SAN IGNACIO DE LOYOLA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/05/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>040</Line>
+    <Label>40</Label>
+    <NameA>TRIBUNAL</NameA>
+    <NameB>ALFONSO XIII</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>12/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>041</Line>
+    <Label>41</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>COLONIA MANZANARES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>16/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>042</Line>
+    <Label>42</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>PEÑA GRANDE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>043</Line>
+    <Label>43</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>ESTRECHO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>044</Line>
+    <Label>44</Label>
+    <NameA>PLAZA DEL CALLAO</NameA>
+    <NameB>MARQUES DE VIANA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>045</Line>
+    <Label>45</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>GLORIETA PRESIDENTE GARCIA MORENO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>26/10/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>046</Line>
+    <Label>46</Label>
+    <NameA>SEVILLA</NameA>
+    <NameB>MONCLOA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/12/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>047</Line>
+    <Label>47</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>CARABANCHEL ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>09/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>048</Line>
+    <Label>48</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>BARRIO DE CANILLEJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>08/04/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>049</Line>
+    <Label>49</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>ARROYO DEL FRESNO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>050</Line>
+    <Label>50</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>AVENIDA DEL MANZANARES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>051</Line>
+    <Label>51</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>PLAZA DEL PERU</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>052</Line>
+    <Label>52</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>SANTAMARCA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>053</Line>
+    <Label>53</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>PARQUE DE SAN JUAN BAUTISTA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/08/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>054</Line>
+    <Label>54</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>BARRIO VILANO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>055</Line>
+    <Label>55</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>BATAN</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>056</Line>
+    <Label>56</Label>
+    <NameA>DIEGO DE LEON</NameA>
+    <NameB>PUENTE DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>07/06/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>057</Line>
+    <Label>57</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>ALTO DEL ARENAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>19/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>058</Line>
+    <Label>58</Label>
+    <NameA>PUENTE VALLECAS</NameA>
+    <NameB>BARRIO DE SANTA EUGENIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>059</Line>
+    <Label>59</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>COLONIA SAN CRISTOBAL DE LOS ANGELES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>060</Line>
+    <Label>60</Label>
+    <NameA>PLAZA DE LA CEBADA</NameA>
+    <NameB>ORCASITAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>16/06/2009                    </DateFirst>
+    <DateEnd>30/12/2010                    </DateEnd>
+    <Line>061</Line>
+    <Label>61</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>NARVAEZ</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>20/09/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>062</Line>
+    <Label>62</Label>
+    <NameA>PRÍNCIPE PÍO</NameA>
+    <NameB>PUERTO SERRANO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>063</Line>
+    <Label>63</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>BARRIO DE SANTA EUGENIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>064</Line>
+    <Label>64</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>ARROYO DEL FRESNO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>065</Line>
+    <Label>65</Label>
+    <NameA>PLAZA DE BENAVENTE</NameA>
+    <NameB>COLONIA GRAN CAPITAN</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>066</Line>
+    <Label>66</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>FUENCARRAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>067</Line>
+    <Label>67</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>BARRIO DE PEÑAGRANDE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>068</Line>
+    <Label>C1</Label>
+    <NameA>CIRCULAR 1</NameA>
+    <NameB>
+    </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>12/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>069</Line>
+    <Label>C2</Label>
+    <NameA>CIRCULAR 2</NameA>
+    <NameB>
+    </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>25/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>070</Line>
+    <Label>70</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>SAN BLAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>01/09/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>071</Line>
+    <Label>71</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>PUERTA DE ARGANDA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/07/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>072</Line>
+    <Label>72</Label>
+    <NameA>DIEGO DE LEON</NameA>
+    <NameB>HORTALEZA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/05/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>073</Line>
+    <Label>73</Label>
+    <NameA>DIEGO DE LEON</NameA>
+    <NameB>CANILLAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>29/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>074</Line>
+    <Label>74</Label>
+    <NameA>PASEO DEL PINTOR ROSALES</NameA>
+    <NameB>PARQUE DE LAS AVENIDAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>075</Line>
+    <Label>75</Label>
+    <NameA>PLAZA DEL CALLAO</NameA>
+    <NameB>COLONIA DEL MANZANARES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/02/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>076</Line>
+    <Label>76</Label>
+    <NameA>PLAZA BEATA MARIA ANA DE JESUS</NameA>
+    <NameB>VILLAVERDE ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>26/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>077</Line>
+    <Label>77</Label>
+    <NameA>PLAZA DE CIUDAD LINEAL</NameA>
+    <NameB>COLONIA FIN DE SEMANA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/01/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>078</Line>
+    <Label>78</Label>
+    <NameA>GLORIETA DE EMBAJADORES</NameA>
+    <NameB>BARRIO DE SAN FERMIN</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>079</Line>
+    <Label>79</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>VILLAVERDE ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>080</Line>
+    <Label>80</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>ESTACION DE CHAMARTIN</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>081</Line>
+    <Label>81</Label>
+    <NameA>OPORTO</NameA>
+    <NameB>HOSPITAL 12 DE OCTUBRE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/08/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>082</Line>
+    <Label>82</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>BARRIO DE PEÑAGRANDE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>083</Line>
+    <Label>83</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>BARRIO DEL PILAR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>085</Line>
+    <Label>85</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>BARRIO DE LOS ROSALES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>086</Line>
+    <Label>86</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>VILLAVERDE ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>087</Line>
+    <Label>87</Label>
+    <NameA>PLAZA DE LA REPUBLICA DOMINICANA</NameA>
+    <NameB>LAS CARCAVAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>02/07/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>090</Line>
+    <Label>E</Label>
+    <NameA>PLAZA DEL CONDE DE CASAL</NameA>
+    <NameB>POLITECNICO VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>091</Line>
+    <Label>F</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>CIUDAD UNIVERSITARIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>11/12/2006                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>092</Line>
+    <Label>G</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>CIUDAD UNIVERSITARIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>10/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>093</Line>
+    <Label>A</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>CAMPUS SOMOSAGUAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>22/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>096</Line>
+    <Label>H</Label>
+    <NameA>ALUCHE</NameA>
+    <NameB>CAMPUS DE SOMOSAGUAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>10/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>097</Line>
+    <Label>I</Label>
+    <NameA>CIUDAD UNIVERSITARIA</NameA>
+    <NameB>CAMPUS SOMOSAGUAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>210</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>099</Line>
+    <Label>U</Label>
+    <NameA>AVENIDA DE SENECA</NameA>
+    <NameB>PARANINFO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>26/10/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>100</Line>
+    <Label>100</Label>
+    <NameA>MORATALAZ</NameA>
+    <NameB>VALDERRIVAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/04/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>101</Line>
+    <Label>101</Label>
+    <NameA>CANILLEJAS</NameA>
+    <NameB>AEROPUERTO-BARAJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>102</Line>
+    <Label>102</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>ESTACION EL POZO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>103</Line>
+    <Label>103</Label>
+    <NameA>ENTREVIAS</NameA>
+    <NameB>ECOBULEVAR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/10/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>104</Line>
+    <Label>104</Label>
+    <NameA>PLAZA DE CIUDAD LINEAL</NameA>
+    <NameB>MAR DE CRISTAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>06/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>105</Line>
+    <Label>105</Label>
+    <NameA>PLAZA DE CIUDAD LINEAL</NameA>
+    <NameB>BARAJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>13/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>106</Line>
+    <Label>106</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>VICALVARO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>107</Line>
+    <Label>107</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>HORTALEZA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/10/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>108</Line>
+    <Label>108</Label>
+    <NameA>URGEL</NameA>
+    <NameB>CEMENTERIO CARABANCHEL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>109</Line>
+    <Label>109</Label>
+    <NameA>PLAZA DE CIUDAD LINEAL</NameA>
+    <NameB>BARRIO BILBAO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>110</Line>
+    <Label>110</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>CEMENTERIO DE LA ALMUDENA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>111</Line>
+    <Label>111</Label>
+    <NameA>PUENTE DE VALLECAS</NameA>
+    <NameB>ENTREVIAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>112</Line>
+    <Label>112</Label>
+    <NameA>MAR DE CRISTAL</NameA>
+    <NameB>BARRIO DEL AEROPUERTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>06/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>113</Line>
+    <Label>113</Label>
+    <NameA>MENDEZ ALVARO</NameA>
+    <NameB>PLAZA DE CIUDAD LINEAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>12/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>114</Line>
+    <Label>114</Label>
+    <NameA>AVENIDA DE AMERICA</NameA>
+    <NameB>BARRIO DEL AEROPUERTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>115</Line>
+    <Label>115</Label>
+    <NameA>AVENIDA DE AMERICA</NameA>
+    <NameB>BARAJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>116</Line>
+    <Label>116</Label>
+    <NameA>GLORIETA DE EMBAJADORES</NameA>
+    <NameB>VILLAVERDE CRUCE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>09/04/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>117</Line>
+    <Label>117</Label>
+    <NameA>ALUCHE</NameA>
+    <NameB>COLONIA SAN IGNACIO DE LOYOLA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>118</Line>
+    <Label>118</Label>
+    <NameA>GLORIETA DE EMBAJADORES</NameA>
+    <NameB>AVENIDA DE LA PESETA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>119</Line>
+    <Label>119</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>BARRIO DE GOYA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>120</Line>
+    <Label>120</Label>
+    <NameA>PLAZA DE LIMA</NameA>
+    <NameB>HORTALEZA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/04/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>121</Line>
+    <Label>121</Label>
+    <NameA>CAMPAMENTO</NameA>
+    <NameB>HOSPITAL 12 OCTUBRE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>122</Line>
+    <Label>122</Label>
+    <NameA>AVENIDA DE AMERICA</NameA>
+    <NameB>CAMPO DE LAS NACIONES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>123</Line>
+    <Label>123</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>VILLAVERDE BAJO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>124</Line>
+    <Label>124</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>LACOMA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>01/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>125</Line>
+    <Label>125</Label>
+    <NameA>MAR DE CRISTAL</NameA>
+    <NameB>HOSPITAL RAMON Y CAJAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>126</Line>
+    <Label>126</Label>
+    <NameA>NUEVOS MINISTERIOS</NameA>
+    <NameB>BARRIO DEL PILAR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>127</Line>
+    <Label>127</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>CIUDAD DE LOS PERIODISTAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/04/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>128</Line>
+    <Label>128</Label>
+    <NameA>GLORIETA DE CUATRO CAMINOS</NameA>
+    <NameB>BARRIO DEL PILAR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>129</Line>
+    <Label>129</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>MANOTERAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>130</Line>
+    <Label>130</Label>
+    <NameA>VILLAVERDE ALTO</NameA>
+    <NameB>VICALVARO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>131</Line>
+    <Label>131</Label>
+    <NameA>CAMPAMENTO</NameA>
+    <NameB>VILLAVERDE ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/08/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>132</Line>
+    <Label>132</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>HOSPITAL LA PAZ</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>133</Line>
+    <Label>133</Label>
+    <NameA>PLAZA DEL CALLAO</NameA>
+    <NameB>MIRASIERRA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>134</Line>
+    <Label>134</Label>
+    <NameA>PLAZA DE CASTILLA-VAGUADA</NameA>
+    <NameB>MONTECARMELO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>12/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>135</Line>
+    <Label>135</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>HOSPITAL RAMON Y CAJAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>11/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>136</Line>
+    <Label>136</Label>
+    <NameA>PACIFICO</NameA>
+    <NameB>MADRID SUR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>13/03/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>137</Line>
+    <Label>137</Label>
+    <NameA>CIUDAD PUERTA DE HIERRO</NameA>
+    <NameB>FUENCARRAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>15/03/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>138</Line>
+    <Label>138</Label>
+    <NameA>PLAZA DE ESPAÑA</NameA>
+    <NameB>ALUCHE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>12/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>139</Line>
+    <Label>139</Label>
+    <NameA>DEHESA DEL PRINCIPE</NameA>
+    <NameB>CARABANCHEL ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>26/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>140</Line>
+    <Label>140</Label>
+    <NameA>PAVONES</NameA>
+    <NameB>CANILLEJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>09/08/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>141</Line>
+    <Label>141</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>BUENOS AIRES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>22/08/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>142</Line>
+    <Label>142</Label>
+    <NameA>PAVONES</NameA>
+    <NameB>ENSANCHE DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>143</Line>
+    <Label>143</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>VILLA DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>144</Line>
+    <Label>144</Label>
+    <NameA>PAVONES</NameA>
+    <NameB>ENTREVIAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>07/03/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>145</Line>
+    <Label>145</Label>
+    <NameA>PLAZA DEL CONDE DE CASAL</NameA>
+    <NameB>ENSANCHE DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>146</Line>
+    <Label>146</Label>
+    <NameA>PLAZA DEL CALLAO</NameA>
+    <NameB>LOS MOLINOS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>04/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>147</Line>
+    <Label>147</Label>
+    <NameA>PLAZA DEL CALLAO</NameA>
+    <NameB>BARRIO DEL PILAR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>148</Line>
+    <Label>148</Label>
+    <NameA>PLAZA DEL CALLAO</NameA>
+    <NameB>PUENTE DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>149</Line>
+    <Label>149</Label>
+    <NameA>TRIBUNAL</NameA>
+    <NameB>PLAZA CASTILLA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>30/03/2010                    </DateFirst>
+    <DateEnd>31/12/2999                    </DateEnd>
+    <Line>150</Line>
+    <Label>150</Label>
+    <NameA>PUERTA DEL SOL</NameA>
+    <NameB>COLONIA VIRGEN DEL CORTIJO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>27/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>151</Line>
+    <Label>151</Label>
+    <NameA>CANILLEJAS</NameA>
+    <NameB>BARAJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>152</Line>
+    <Label>152</Label>
+    <NameA>AVENIDA FELIPE II</NameA>
+    <NameB>MENDEZ ALVARO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/02/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>153</Line>
+    <Label>153</Label>
+    <NameA>LAS ROSAS</NameA>
+    <NameB>MAR DE CRISTAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>27/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>155</Line>
+    <Label>155</Label>
+    <NameA>PLAZA ELIPTICA</NameA>
+    <NameB>ALUCHE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>21/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>156</Line>
+    <Label>156</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>PLAZA DE LEGAZPI</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>08/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>160</Line>
+    <Label>160</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>ARAVACA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>08/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>161</Line>
+    <Label>161</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>ESTACION DE ARAVACA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>08/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>162</Line>
+    <Label>162</Label>
+    <NameA>MONCLOA</NameA>
+    <NameB>EL BARRIAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>18/04/2010                    </DateEnd>
+    <Line>172</Line>
+    <Label>172L</Label>
+    <NameA>MAR DE CRISTAL</NameA>
+    <NameB>TELEFONICA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>173</Line>
+    <Label>173</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>SANCHINARRO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>30/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>174</Line>
+    <Label>174</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>SANCHINARRO ESTE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>176</Line>
+    <Label>176</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>LAS TABLAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>178</Line>
+    <Label>178</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>MONTECARMELO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>28/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>200</Line>
+    <Label>200</Label>
+    <NameA>AVENIDA DE AMERICA</NameA>
+    <NameB>AEROPUERTO T1-2-3</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>03/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>202</Line>
+    <Label>202</Label>
+    <NameA>HOSPITAL GREGORIO MARAÑON</NameA>
+    <NameB>AVENIDA DE REINA VICTORIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>28/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>204</Line>
+    <Label>204</Label>
+    <NameA>AVENIDA DE AMERICA</NameA>
+    <NameB>AEROPUERTO T4</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>210</Line>
+    <Label>210</Label>
+    <NameA>PLAZA DE MANUEL BECERRA</NameA>
+    <NameB>LA ELIPA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>215</Line>
+    <Label>215</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>PARQUE DE ROMA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>09/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>247</Line>
+    <Label>247</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>COLONIA SAN JOSE OBRERO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>15/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>310</Line>
+    <Label>310</Label>
+    <NameA>PACIFICO</NameA>
+    <NameB>ESTACION EL POZO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>18/04/2010                    </DateEnd>
+    <Line>372</Line>
+    <Label>172SF</Label>
+    <NameA>MAR DE CRISTAL</NameA>
+    <NameB>LAS TABLAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>401</Line>
+    <Label>E1</Label>
+    <NameA>ATOCHA</NameA>
+    <NameB>EMBAJADORES-PLAZA ELIPTICA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>29/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>402</Line>
+    <Label>E2</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>LAS ROSAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>29/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>403</Line>
+    <Label>E3</Label>
+    <NameA>AVENIDA DE FELIPE II</NameA>
+    <NameB>PUERTA DE ARGANDA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>120</GroupNumber>
+    <DateFirst>05/06/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>451</Line>
+    <Label>T11</Label>
+    <NameA>MAR DE CRISTAL</NameA>
+    <NameB>PARQUE EMPRESARIAL CRISTALIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>120</GroupNumber>
+    <DateFirst>10/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>452</Line>
+    <Label>T23</Label>
+    <NameA>PUERTA DE ARGANDA</NameA>
+    <NameB>POLIGONO INDUSTRIAL DE VICALVARO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>120</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>453</Line>
+    <Label>T32</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>MERCAMADRID-C.T.M</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>120</GroupNumber>
+    <DateFirst>14/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>454</Line>
+    <Label>T31</Label>
+    <NameA>ESTACION EL POZO</NameA>
+    <NameB>SIERRA DE GUADALUPE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>120</GroupNumber>
+    <DateFirst>28/03/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>455</Line>
+    <Label>T61</Label>
+    <NameA>ESTACION CERCANIAS DE FUENCARRAL</NameA>
+    <NameB>TELEFONICA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>120</GroupNumber>
+    <DateFirst>10/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>456</Line>
+    <Label>T41</Label>
+    <NameA>VILLAVERDE ALTO</NameA>
+    <NameB>POLIGONO INDUSTRIAL LA RESINA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>14/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>481</Line>
+    <Label>H1</Label>
+    <NameA>SIERRA DE GUADALUPE</NameA>
+    <NameB>HOSPITAL INFANTA LEONOR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>29/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>501</Line>
+    <Label>N1</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>SANCHINARRO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>10/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>502</Line>
+    <Label>N2</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>HORTALEZA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>503</Line>
+    <Label>N3</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>CANILLAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>26/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>504</Line>
+    <Label>N4</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>BARAJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>505</Line>
+    <Label>N5</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>COLONIA FIN DE SEMANA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>506</Line>
+    <Label>N6</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>LAS ROSAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>507</Line>
+    <Label>N7</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>VICALVARO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>508</Line>
+    <Label>N8</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>VALDEBERNARDO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>19/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>509</Line>
+    <Label>N9</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>ENSANCHE DE VALLECAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>19/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>510</Line>
+    <Label>N10</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>PALOMERAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>511</Line>
+    <Label>N11</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>MADRID SUR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>24/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>512</Line>
+    <Label>N12</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>LOS ROSALES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>513</Line>
+    <Label>N13</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>COLONIA SAN CRISTOBAL DE LOS ANGELES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>23/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>514</Line>
+    <Label>N14</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>VILLAVERDE ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>515</Line>
+    <Label>N15</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>ORCASUR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>17/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>516</Line>
+    <Label>N16</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>AVENIDA DE LA PESETA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>05/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>517</Line>
+    <Label>N17</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>CARABANCHEL ALTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>18/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>518</Line>
+    <Label>N18</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>ALUCHE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>21/01/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>519</Line>
+    <Label>N19</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>COLONIA SAN IGNACIO DE LOYOLA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>520</Line>
+    <Label>N20</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>BARRIO DE PEÑAGRANDE</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>02/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>521</Line>
+    <Label>N21</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>ARROYO DEL FRESNO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>08/04/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>522</Line>
+    <Label>N22</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>BARRIO DEL PILAR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>10/04/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>523</Line>
+    <Label>N23</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>MONTECARMELO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>04/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>524</Line>
+    <Label>N24</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>LAS TABLAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>04/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>525</Line>
+    <Label>NC1</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>MONCLOA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>320</GroupNumber>
+    <DateFirst>21/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>526</Line>
+    <Label>NC2</Label>
+    <NameA>PLAZA DE CIBELES</NameA>
+    <NameB>ARGÜELLES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>10/04/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>551</Line>
+    <Label>L1</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>CONGOSTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>03/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>552</Line>
+    <Label>L2</Label>
+    <NameA>VENTAS</NameA>
+    <NameB>CUATRO CAMINOS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>21/09/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>553</Line>
+    <Label>L3</Label>
+    <NameA>LEGAZPI</NameA>
+    <NameB>MONCLOA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>21/12/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>554</Line>
+    <Label>L4</Label>
+    <NameA>ARGÜELLES</NameA>
+    <NameB>PARQUE DE SANTA MARIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>27/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>555</Line>
+    <Label>L5</Label>
+    <NameA>CANILLEJAS</NameA>
+    <NameB>CASA DE CAMPO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>557</Line>
+    <Label>L7</Label>
+    <NameA>LAS MUSAS</NameA>
+    <NameB>LACOMA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>24/11/2008                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>558</Line>
+    <Label>L8</Label>
+    <NameA>NUEVOS MINISTERIOS</NameA>
+    <NameB>BARAJAS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>559</Line>
+    <Label>L9</Label>
+    <NameA>HERRERA ORIA</NameA>
+    <NameB>PUERTA DE ARGANDA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>560</Line>
+    <Label>L10</Label>
+    <NameA>FUENCARRAL</NameA>
+    <NameB>CUATRO VIENTOS</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>13/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>561</Line>
+    <Label>L6</Label>
+    <NameA>CIRCULAR 1</NameA>
+    <NameB>
+    </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>13/02/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>562</Line>
+    <Label>L06</Label>
+    <NameA>CIRCULAR 2</NameA>
+    <NameB>
+    </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>350</GroupNumber>
+    <DateFirst>29/09/2006                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>571</Line>
+    <Label>L11</Label>
+    <NameA>PLAZA ELIPTICA</NameA>
+    <NameB>PAN BENDITO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>155</GroupNumber>
+    <DateFirst>09/06/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>601</Line>
+    <Label>M1</Label>
+    <NameA>SEVILLA</NameA>
+    <NameB>GLORIETA DE EMBAJADORES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>155</GroupNumber>
+    <DateFirst>04/06/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>602</Line>
+    <Label>M2</Label>
+    <NameA>SEVILLA</NameA>
+    <NameB>ARGUELLES</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>05/05/2007                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>702</Line>
+    <Label>SE702</Label>
+    <NameA>PLAZA ELIPTICA</NameA>
+    <NameB>CEMENTERIO SUR</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>110</GroupNumber>
+    <DateFirst>10/11/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>704</Line>
+    <Label>SE704</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>CEMENTERIO DE FUENCARRAL</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>171</GroupNumber>
+    <DateFirst>08/03/2010                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>744</Line>
+    <Label>SE744</Label>
+    <NameA>DIEGO DE LEON</NameA>
+    <NameB>ALFONSO XIII</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>160</GroupNumber>
+    <DateFirst>08/05/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>791</Line>
+    <Label>SE</Label>
+    <NameA>PLAZA DE LEGAZPI</NameA>
+    <NameB>CAJA MAGICA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>801</Line>
+    <Label>SE801</Label>
+    <NameA>PLAZA DE CASTILLA</NameA>
+    <NameB>CONGOSTO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>804</Line>
+    <Label>SE804</Label>
+    <NameA>ARGÜELLES   </NameA>
+    <NameB>PARQUE DE SANTA MARIA</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>805</Line>
+    <Label>SE805</Label>
+    <NameA>CANILLEJAS</NameA>
+    <NameB>CASA DE CAMPO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>807</Line>
+    <Label>SE807</Label>
+    <NameA>LAS MUSAS   </NameA>
+    <NameB>LACOMA      </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>808</Line>
+    <Label>SE808</Label>
+    <NameA>MINISTERIOS </NameA>
+    <NameB>BARAJAS     </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>810</Line>
+    <Label>SE810</Label>
+    <NameA>FUENCARRAL  </NameA>
+    <NameB>CUATRO VIENTOS   </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>180</GroupNumber>
+    <DateFirst>01/01/2009                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>811</Line>
+    <Label>SE811</Label>
+    <NameA>PLAZA ELIPTICA</NameA>
+    <NameB>PAN BENDITO</NameB>
+  </REG>
+  <REG>
+    <GroupNumber>972</GroupNumber>
+    <DateFirst>01/01/2005                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>991</Line>
+    <Label>EMT</Label>
+    <NameA>PRACTICAS</NameA>
+    <NameB>
+    </NameB>
+  </REG>
+  <REG>
+    <GroupNumber>972</GroupNumber>
+    <DateFirst>01/01/2005                    </DateFirst>
+    <DateEnd>31/12/2050                    </DateEnd>
+    <Line>992</Line>
+    <Label>EMT</Label>
+    <NameA>PRACTICAS</NameA>
+    <NameB>
+    </NameB>
+  </REG>
+</TABLA>

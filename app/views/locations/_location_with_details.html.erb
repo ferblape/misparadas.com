@@ -1,0 +1,17 @@
+<% div_for location do %>
+  <h2>
+    <span class='code'><%= location.emt_code %></span> <%= location.name %>
+    <span class='distance'><%= distance_in_meters(location)  %></span>
+  </h2>
+    
+  <ul>
+    <% location.routes.each do |route|  %>
+      <li><%= route.line.name %> dirreción <%= route.direction %> expected <%= route.expected_at(location) %></li>
+    <% end %>
+  </ul>
+  
+  <% form_for choice, :html => {:method => :delete} do |f| %>
+    <button type='submit' class='delete' onclick='return confirm("¿Estás seguro?")'>Quitar de mis paradas</button>
+  <% end %>
+
+<% end %>

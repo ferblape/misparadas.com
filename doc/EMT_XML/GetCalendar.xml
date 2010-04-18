@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TABLA>
+  <RESULTADO>0</RESULTADO>
+  <DESCRIPCION>Resultado de la operacion Correcta</DESCRIPCION>
+  <REG>
+    <Fecha>17/04/2010 0:00:00</Fecha>
+    <TipoDiaMo>SA</TipoDiaMo>
+    <TipoDiaEs>SA</TipoDiaEs>
+    <TemporadaTG>IV</TemporadaTG>
+    <TemporadaTU>IV</TemporadaTU>
+    <TipoDiaLT>NLGU</TipoDiaLT>
+    <Huelga>N</Huelga>
+    <DiaSemana>S</DiaSemana>
+    <TipoDiaPF>NO</TipoDiaPF>
+    <TipoDiaCO>S</TipoDiaCO>
+    <Semana>16</Semana>
+    <Mes>4</Mes>
+    <Trimestre>2</Trimestre>
+    <Cuatrimestre>1</Cuatrimestre>
+    <Semestre>1</Semestre>
+    <Anio>2010</Anio>
+    <Clima>
+    </Clima>
+    <TemperaturaMax>0,0</TemperaturaMax>
+    <TemperaturaMin>0,0</TemperaturaMin>
+    <Otros>
+    </Otros>
+    <Comentarios>
+    </Comentarios>
+  </REG>
+</TABLA>

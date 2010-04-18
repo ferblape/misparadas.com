@@ -1,0 +1,4 @@
+urls:
+  lines: "http://servicios.emtmadrid.es:8080/bus/servicebus.asmx/GetListLines?idClient=500002&PassKey=8ED5BB02-4BFA-4365-8348-ADA1D76E30A2&SelectDate=17/4/2010&Lines="
+  arrivals: "http://servicios.emtmadrid.es:8080/paradas/service.asmx/ObtenEstimacion?IdCliente=500002&PassKey=8ED5BB02-4BFA-4365-8348-ADA1D76E30A2&IdParada=%s"
+  routes: "http://servicios.emtmadrid.es:8080/bus/servicebus.asmx/GetRouteLines?idClient=500002&PassKey=8ED5BB02-4BFA-4365-8348-ADA1D76E30A2&SelectDate=17/4/2010&Lines=%s"

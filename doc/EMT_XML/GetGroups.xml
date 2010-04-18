@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TABLA>
+  <RESULTADO>0</RESULTADO>
+  <DESCRIPCION>Resultado de la operacion Correcta</DESCRIPCION>
+  <REG>
+    <CodGrupo>100</CodGrupo>
+    <CodSubGrupo>110</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS CONVENCIONALES                                                      </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>100</CodGrupo>
+    <CodSubGrupo>120</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS CENTROS DE TRABAJO                                                  </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>100</CodGrupo>
+    <CodSubGrupo>155</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS MINIBUSES                                                           </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>100</CodGrupo>
+    <CodSubGrupo>160</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS ESPECIALES                                                          </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>100</CodGrupo>
+    <CodSubGrupo>171</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS ESPECIALES                                                       </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>100</CodGrupo>
+    <CodSubGrupo>180</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/2009 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>REFUERZO LINEAS METRO                                                      </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>200</CodGrupo>
+    <CodSubGrupo>210</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS UNIVERSITARIAS CONVENCIONALES                                       </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>200</CodGrupo>
+    <CodSubGrupo>260</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS UNIVERSITARIAS ESPECIALES                                           </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>200</CodGrupo>
+    <CodSubGrupo>272</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS ESPECIALES UNIVERSITARIOS                                        </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>300</CodGrupo>
+    <CodSubGrupo>320</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS SERVICIO NOCTURNO CONVENCIONALES                                    </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>300</CodGrupo>
+    <CodSubGrupo>350</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>05/05/2006 0:00:00</FechaIni>
+    <FechaFin>31/12/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS SERVICIO NOCTURNO DE METRO                                          </Descripcion>
+    <CodUsuario>NACHO          </CodUsuario>
+    <FechaCambio>27/06/2006 1:01:01</FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>300</CodGrupo>
+    <CodSubGrupo>360</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>LINEAS SERVICIO NOCTURNO ESPECIALES                                        </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>300</CodGrupo>
+    <CodSubGrupo>373</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS ESPECIALES SERVICIO NOCTURNO                                     </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>800</CodGrupo>
+    <CodSubGrupo>810</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SITUACIONES ESPECIALES                                                     </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>900</CodGrupo>
+    <CodSubGrupo>970</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS ESPECIALES                                                       </Descripcion>
+    <CodUsuario>JOSE LUIS      </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>900</CodGrupo>
+    <CodSubGrupo>971</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>COCHES DE PERSONAL                                                         </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>900</CodGrupo>
+    <CodSubGrupo>972</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS INTERNOS                                                         </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>900</CodGrupo>
+    <CodSubGrupo>973</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS ESPECIALES GRATUITOS INSTITUCIONALES                             </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>900</CodGrupo>
+    <CodSubGrupo>974</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS ESPECIALES NO INCLUIDOS EN RECAUDACION ARRENDADOS A TERCEROS     </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+  <REG>
+    <CodGrupo>900</CodGrupo>
+    <CodSubGrupo>991</CodSubGrupo>
+    <Tipo>
+    </Tipo>
+    <FechaIni>01/01/1900 0:00:00</FechaIni>
+    <FechaFin>01/01/2050 0:00:00</FechaFin>
+    <Descripcion>SERVICIOS AUXILIARES A LA EXPLOTACION                                      </Descripcion>
+    <CodUsuario>
+    </CodUsuario>
+    <FechaCambio>
+    </FechaCambio>
+  </REG>
+</TABLA>
