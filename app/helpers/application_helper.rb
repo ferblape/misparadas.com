@@ -19,7 +19,7 @@ module ApplicationHelper
       :center => "#{lat},#{lng}",
       :zoom => "16",
       :markers => "size:small|color:black|#{lat},#{lng}",
-      :size => "378x300",
+      :size => "378x250",
       :sensor => "false"
     })
     (wd, ht) = opts[:size].split('x')

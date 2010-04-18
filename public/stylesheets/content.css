@@ -204,3 +204,8 @@ p.empty {
   font-size: 24px;
   color: #999;
   line-height: 130%; }
+
+p.linkInfo {
+  background-color: #FFF2D6;
+  padding: 10px;
+  border-bottom: solid #ccc 1px; }
