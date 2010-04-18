@@ -1,6 +1,27 @@
 body {
   background: #eee; }
 
+.roundedBottom {
+  -moz-border-radius-bottom-left: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottom-right: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.roundedTop {
+  -moz-border-radius-top-left: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-top-right: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.rounded {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-rounded: 5px; }
+
 .container {
   width: 380px;
   margin: 10px auto; }
@@ -69,36 +90,62 @@ button.clean:hover {
     background: url('/images/buttons/gradient120.png') 0 0 repeat-x;
     color: #666; }
 
+.locations.index h1 {
+  display: none; }
+.locations.index header h1 {
+  display: block; }
+
+p.introduction {
+  background: #000 url('/images/sprites.png') 0 -120px no-repeat;
+  width: 360px;
+  color: #ccc;
+  font-size: 15px;
+  padding: 10px 10px 30px 10px;
+  height: 60px;
+  line-height: 130%; }
+
+input.text {
+  padding: 7px;
+  font-size: 13px;
+  background: #fff url(/images/textboxbg.png) top left no-repeat; }
+
+button.buscar {
+  position: absolute; }
+
 .locations.index article.location, .choices.index article.location {
   position: relative;
   margin: 20px 0px; }
   .locations.index article.location header, .choices.index article.location header {
     display: block;
-    background: #000;
-    -moz-border-radius: 5px 5px 0px 0px;
-    padding: 10px 5px;
-    margin: 0px; }
+    background: #000 url('/images/backgrounds/dark_gradient.png') 0 0 repeat-x;
+    text-transform: lowercase;
+    padding: 10px; }
     .locations.index article.location header h1, .choices.index article.location header h1 {
       padding: 0px;
       margin: 0px;
       color: #fff;
       font-size: 15px;
       text-transform: lowercase;
-      padding: 0px 10px; }
+      padding: 0px 10px;
+      font-weight: bold; }
 
 .locations.index article.location {
   cursor: pointer; }
   .locations.index article.location img {
-    display: block; }
+    display: block;
+    border: solid #ccc 1px; }
   .locations.index article.location .routes {
-    background-color: white; }
+    background-color: white;
+    border-bottom: solid #ccc 1px; }
     .locations.index article.location .routes .route {
-      border-bottom: 1px solid #eeeeee;
-      font-size: 13px; }
+      padding-top: 10px;
+      border-top: 1px solid #eeeeee;
+      font-size: 13px;
+      line-height: 120%; }
       .locations.index article.location .routes .route .line {
-        padding: 10px 0px; }
+        padding: 0 0 15px 0px; }
         .locations.index article.location .routes .route .line span {
-          padding: 10px;
+          padding: 0 0 0 15px;
           color: #333;
           font-weight: bold; }
       .locations.index article.location .routes .route .description .label, .locations.index article.location .routes .route .description .name {
@@ -128,25 +175,43 @@ button.clean:hover {
     right: 0px;
     background-color: #8FB8E0; }
 
-.choices.index .routes {
+.choices.index article.location header button {
+  display: none; }
+.choices.index article.location header:hover button {
+  display: block;
+  position: absolute;
+  left: -19px;
+  top: 4px; }
+  .choices.index article.location header:hover button img {
+    width: 16px;
+    height: 25px; }
+.choices.index article.location .routes {
   background-color: white;
   font-size: 13px; }
-  .choices.index .routes .route {
+  .choices.index article.location .routes .route {
     border-bottom: 1px solid #eee;
     padding: 8px 0px; }
-  .choices.index .routes button {
+  .choices.index article.location .routes button {
     height: 20px;
     width: 22px;
     margin: -2px 0px 0px 10px; }
-  .choices.index .routes .lineDest {
+  .choices.index article.location .routes .lineDest {
     line-height: 18px;
     vertical-align: middle; }
-    .choices.index .routes .lineDest .line {
+    .choices.index article.location .routes .lineDest .line {
       font-weight: bold;
       color: #333; }
-    .choices.index .routes .lineDest .destination {
+    .choices.index article.location .routes .lineDest .destination {
       color: #999;
       text-transform: lowercase; }
-  .choices.index .routes .expected {
+  .choices.index article.location .routes .expected {
     color: #666666;
     font-size: 11px; }
+
+footer.layout {
+  background: transparent url(/images/footer.png) top left no-repeat;
+  height: 200px;
+  padding: 85px 0 0 0;
+  margin-top: 100px;
+  display: block;
+  color: #777; }

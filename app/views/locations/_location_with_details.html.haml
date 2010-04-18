@@ -1,5 +1,8 @@
 %article.location.details.span-10{'data-expected-url' => arrivals_location_url(location), :id => dom_id(location)}
   %header
+    - form_for choice, :html => {:method => :delete} do |f|
+      %button.delete.clean{:type => 'submit', :onclick => 'return confirm("¿Estás seguro?")'}
+        = image_tag 'buttons/cross_black.png'
     %h1
       %span.code= location.emt_code
       = location.name
@@ -27,10 +30,8 @@
             &rarr;
             = route.destination
         .span-3.last
-          -# Llega en 2min
+          -# if choice.favourite_route == route
           = route.expected_at(location)
 
   %footer
-    - form_for choice, :html => {:method => :delete} do |f|
-      %button.delete{:type => 'submit', :onclick => 'return confirm("¿Estás seguro?")'} Quitar de mis paradas
 
