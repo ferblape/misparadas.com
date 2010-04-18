@@ -1,7 +1,10 @@
 class ChoicesController < ApplicationController
 
   def index
-    redirect_to slug_path(:slug => session[:slug]) unless params[:slug]
+    if session[:slug] != params[:slug]
+      session[:slug] = params[:slug]
+      redirect_to slug_path(:slug => session[:slug]) 
+    end
     
     @choices = Choice.find_all_by_slug(session[:slug]) || (redirect_to locations_path and return)
   end
