@@ -2,17 +2,16 @@ class ChoicesController < ApplicationController
 
   
   def index
-    @choices = choices_from_slug || choices_from_cookie || (redirect_to bus_stops_path and return)
-    # raise @choices.inspect
+    @choices = choices_from_slug || choices_from_cookie || (redirect_to locations_path and return)
   end
 
   def create
     if params[:slug]
-      @choice = Choice.create(:slug => params[:slug], :bus_stop_id => params[:bus_stop_id])
+      @choice = Choice.create(:slug => params[:slug], :location_id => params[:location_id])
     else
-      @choices = session[:choices] || {:bus_stop_ids => Set.new, :waypoint_ids => Set.new }
-      
-      @choices[:bus_stop_ids] << params[:bus_stop_id]
+      @choices = session[:choices] || {:location_ids => Set.new}
+
+      @choices[:location_ids] << params[:location_id]
       
       session[:choices] = @choices
       
@@ -41,7 +40,7 @@ class ChoicesController < ApplicationController
   end
   
   def choices_from_cookie
-    session[:choices] && session[:choices][:bus_stop_ids] && session[:choices][:bus_stop_ids].to_a.map {|bus_stop_id| Choice.new(:bus_stop_id => bus_stop_id)}|| nil
+    session[:choices] && session[:choices][:location_ids] && session[:choices][:location_ids].to_a.map {|location_id| Choice.new(:location_id => location_id)}|| nil
   end
 
 end

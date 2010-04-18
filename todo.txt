@@ -1,0 +1,5 @@
+- Rake task to remove Locations that are not on the website
+- Rake task to add Route destinations
+- Cache http requests
+- Parallelize http request
+- Move ETA requests to an ajax call?

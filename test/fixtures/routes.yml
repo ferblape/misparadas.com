@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  destination: MyString
+  line_id: 1
+  name: MyString
+  direction: MyString
+
+two:
+  destination: MyString
+  line_id: 1
+  name: MyString
+  direction: MyString

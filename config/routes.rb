@@ -2,7 +2,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.root :controller => 'choices'
   
-  map.resources :bus_stops
+  map.resources :locations
+  
   map.resources :choices, :except => :index
   
   # The priority is based upon order of creation: first created -> highest priority.

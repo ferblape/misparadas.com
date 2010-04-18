@@ -1,7 +1,7 @@
-<h1>Mis paradas</h1>
+<h1>Mis paradas </h1>
+<%= link_to 'Agregar otra parada', locations_path %>
 
-<ul>
 <% @choices.each do |choice| %>
-  <li><strong><%= choice.bus_stop.name %></strong> <span><%= choice.bus_stop.arrivals %></span></li>
+  <%= render :partial => 'locations/location_with_details', :object => choice.location, :locals => { :location => choice.location} %>
 <% end %>
-</ul>
+
