@@ -13,8 +13,8 @@
 
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
-    .span-8
-      = text_field_tag 'q', params[:q], :class => 'title span-8'
+    .span-6
+      = text_field_tag 'q', params[:q] || "Muestráme paradas de autobus cerca de.." , :class => 'text span-6'
 
     = button_tag "Buscar", :type => 'submit'
 
