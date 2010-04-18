@@ -4,8 +4,10 @@ class CreateRoutes < ActiveRecord::Migration
       t.string :destination
       t.references :line
       t.string :name
+      
+      t.string :emt_line
       t.string :direction
-
+      
       t.timestamps
     end
   end

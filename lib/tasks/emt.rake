@@ -13,10 +13,12 @@ namespace :emt do
         location = Location.create! :emt_code => row[0], :name => row[1], :lat => row[2].to_f, :lng => row[3].to_f
         [row[4].split(' '), row[5].split(' ')].transpose.each do |pair|
           direction = ((pair.last[-1..-1] == '1') ? "normal" : "reverse")
-          line_id = pair.first
-          puts "\t #{line_id} [#{direction} direction]"
+          emt_line =  pair.last[0..-3]
           line = Line.find_or_create_by_name(pair.first)
-          location.routes << Route.find_or_create_by_line_id_and_direction(line.id, direction)
+          puts "\t #{line.name} [#{direction} direction]"
+          route = Route.find_or_create_by_line_id_and_direction(line.id, direction)
+          route.update_attributes(:emt_line => emt_line)
+          location.routes << route
         end
       rescue
         puts "#{$!}"
