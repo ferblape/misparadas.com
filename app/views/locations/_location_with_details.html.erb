@@ -6,7 +6,18 @@
     
   <ul>
     <% location.routes.each do |route|  %>
-      <li><%= route.line.name %> dirreción <%= route.direction %> expected <%= route.expected_at(location) %></li>
+      <% content_tag_for :li, route, :class => favourite_class_if(choice.favourite_route == route) do %>
+       
+        <% unless choice.favourite_route == route %>
+          <% form_for choice, :html => {:method => :put} do |f| %>
+            <%= f.hidden_field :favourite_route_id, :value => route.id %>
+            <button type='submit'>*</button>
+          <% end %>
+        <% end %>
+       
+        <%= route.line.name %> dirreción <%= route.direction %> expected <%= route.expected_at(location) %>
+        
+        <% end %>
     <% end %>
   </ul>
   
