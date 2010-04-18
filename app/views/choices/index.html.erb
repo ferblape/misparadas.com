@@ -1,7 +1,6 @@
 <h1>Mis paradas </h1>
-<%= link_to 'Agregar otra parada', locations_path %>
-
-<% @choices.each do |choice| %>
-  <%= render :partial => 'locations/location_with_details', :object => choice.location, :locals => { :location => choice.location} %>
+<p><%= link_to 'Agregar otra parada', locations_path %></p>
+<p>Your permanent url is <%= link_to slug_url(:slug => session[:slug]) %>
+</p><% @choices.each do |choice| %>
+  <%= render :partial => 'locations/location_with_details', :locals => { :location => choice.location, :choice => choice } %>
 <% end %>
-
