@@ -1,18 +1,19 @@
 class ChoicesController < ApplicationController
 
   def index
-    @choices = choices_from_slug || choices_from_cookie || (redirect_to locations_path and return)
+    redirect_to slug_path(:slug => session[:slug]) unless params[:slug]
+    
+    @choices = Choice.find_all_by_slug(session[:slug]) || (redirect_to locations_path and return)
   end
 
   def create
-    slug = session[:choices_slug] || Choice.generate_slug
+    session[:slug] ||= Choice.generate_slug
     
-    @choice = Choice.new(:location_id => params[:location_id], :slug => slug)
+    @choice = Choice.new(:location_id => params[:location_id], :slug => session[:slug])
 
     if @choice.save
-      session[:choices_slug] = @choice.slug
       flash[:notice] = "We have added your bus stop as a favourite"
-      redirect_to choices_path
+      redirect_to slug_path(:slug => session[:slug])
     else
       flash[:error] = "We couldn't save your bus stop"
       redirect_to :back
@@ -42,13 +43,13 @@ class ChoicesController < ApplicationController
       params[:slug] || session[:choices]
     end
 
-    def choices_from_slug
-      choices = Choice.find_all_by_slug(params[:slug])
-      choices.present? && choices || nil
+    def load_choices
+      session[:slug] = params[:slug] unless params[:slug].blank?
+      choices_from_cookie
     end
 
     def choices_from_cookie
-      choices = Choice.find_all_by_slug(session[:choices_slug])
+      choices = 
       choices.present? && choices || nil
     end
 

@@ -5,7 +5,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :locations
   
   map.resources :choices, :except => :index
-  
+
+  map.slug 's/:slug', :controller => 'choices', :action => 'index'
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
