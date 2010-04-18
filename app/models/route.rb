@@ -4,9 +4,6 @@ class Route < ActiveRecord::Base
 
   validates_presence_of :direction, :line_id
 
-  require 'net/http'
-  require 'uri'
-
   def expected_at(location)
     location.route_arrivals(line.name)
   end

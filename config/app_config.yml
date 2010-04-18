@@ -1,0 +1,2 @@
+urls:
+  arrivals: "http://servicios.emtmadrid.es:8080/paradas/service.asmx/ObtenEstimacion?IdCliente=500002&PassKey=8ED5BB02-4BFA-4365-8348-ADA1D76E30A2&IdParada=%s"
