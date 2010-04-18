@@ -3,13 +3,14 @@
   %h1 Mis Paradas 
 
   %p.introduction
-    MisParadas.com sirve para consultar el horario de los autobuses urbanos de Madrid
-    que más usas.
+    %strong
+      Busca los horarios de la EMT Madrid<br />
+    Escribe un número de autobús o una dirección cercana a la parada que deseas utilizar
 
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
     .span-7
-      = text_field_tag 'q', params[:q] || "Paradas de autobus cerca de.." , :class => 'text span-7 rounded'
+      = text_field_tag 'q', params[:q], :class => 'text span-7 rounded'
 
     = button_tag "Buscar", :type => 'submit', :class => 'buscar'
 

@@ -3,6 +3,7 @@
 $(document).ready(function() {
 
   $.Locations.bindings();
+  $('input.text.rounded').focus();
 
 });
 
