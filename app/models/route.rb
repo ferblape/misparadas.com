@@ -1,4 +1,5 @@
 class Route < ActiveRecord::Base
+  
   has_many :stops
   belongs_to :line
 
@@ -7,5 +8,5 @@ class Route < ActiveRecord::Base
   def expected_at(location)
     location.route_arrivals(line.name)
   end
-
+  
 end
