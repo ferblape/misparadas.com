@@ -6,6 +6,11 @@
     MisParadas.com sirve para consultar el horario de los autobuses
     que más usas. Así no sufrirás las inclemencias del clima de Madrid.
 
+  - if flash[:alert]
+    .flash
+    %p
+      = flash[:alert]
+
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
     .span-8
