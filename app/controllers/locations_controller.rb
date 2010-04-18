@@ -20,8 +20,16 @@ class LocationsController < ApplicationController
       if params[:q] =~ /^\s*\d{1,4}\s*$/
         return { :conditions => { :emt_code => params[:q].strip } }
       else
-        return :origin => params[:q].strip, :within => 0.2, :order => 'distance ASC'
+        return :origin => parsed_address(params[:q]), :within => 0.2, :order => 'distance ASC'
       end
     end
-
+    
+    def parsed_address(address)
+      address.strip!
+      if address =~ /(.*)\s*,\s*Madrid\s*/i
+        address
+      else
+        "#{address}, Madrid"
+      end
+    end
 end
