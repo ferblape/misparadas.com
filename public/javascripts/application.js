@@ -24,10 +24,9 @@ $.Locations = {
 var Estimates = {
   fetch: function() {
     $('article.location').each(function() {
-      var loc = $(this);
       $.get($(this).attr('data-expected-url'), function(data) {  
         for (var i in data) {
-          loc.find('.expected').html(data[i]);  
+          $('#estimate_route_' + i).html(data[i]);  
         }
       }, 'json');
     });

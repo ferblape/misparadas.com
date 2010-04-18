@@ -10,7 +10,10 @@
       
       .route.span-10{:id => dom_id(route), :class => favourite_class_if(choice.favourite_route == route)}
         .span-1.save
-          - unless choice.favourite_route == route
+          - if choice.favourite_route == route
+            %button.clean{:type => 'submit'}
+              = image_tag 'buttons/star_selected.png'
+          - else
             - form_for choice, :html => {:method => :put} do |f|
               = f.hidden_field :favourite_route_id, :value => route.id
               %button.clean{:type => 'submit'}
