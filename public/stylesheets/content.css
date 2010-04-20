@@ -127,7 +127,9 @@ button.buscar {
     border: solid #ccc 1px; }
   .locations.index article.location .routes {
     background-color: white;
-    border-bottom: solid #ccc 1px; }
+    -webkit-box-shadow: 0 1px 2px #bbb;
+    -moz-box-shadow: 0 1px 2px #bbb;
+    box-shadow: 0 1px 2px #bbb; }
     .locations.index article.location .routes .route {
       padding-top: 10px;
       border-top: 1px solid #eeeeee;
@@ -214,11 +216,13 @@ button.buscar {
 
 header.layout {
   background: transparent url(/images/footer.png) 0 -1px no-repeat;
-  padding: 7px 10px 85px 0;
-  display: block;
-  text-align: right; }
+  padding: 7px 10px 0 0;
+  display: block; }
   header.layout a {
-    color: #09f; }
+    display: block;
+    height: 85px;
+    text-indent: -9999px;
+    width: 380px; }
 
 p.empty {
   font-size: 24px;
