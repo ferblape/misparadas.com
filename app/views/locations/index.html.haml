@@ -11,8 +11,8 @@
     
     .span-7
       = text_field_tag 'q', params[:q], :class => 'text span-7 rounded', :type => 'number'
-
-    = button_tag "Buscar", :type => 'submit', :class => 'buscar boton'
+    .span-1.last
+      = button_tag "Buscar", :type => 'submit', :class => 'buscar boton'
 
   .span-8
     = render @locations

@@ -100,8 +100,7 @@ input.text {
   top: -3px; }
 
 button.buscar {
-  position: absolute;
-  margin-left: 275px; }
+  position: absolute; }
 
 .locations.index article.location, .choices.index article.location {
   position: relative;
