@@ -40,7 +40,7 @@ a.boton {
 button.boton, a.boton {
   outline: none;
   background: transparent url(/images/sprites.png) -153px 0 no-repeat;
-  padding: 0;
+  padding: 0 0 5px 0;
   margin: 0px;
   height: 38px;
   border: 0px;
@@ -48,7 +48,6 @@ button.boton, a.boton {
   width: 105px;
   text-shadow: 0px 1px 1px #fff;
   color: #222;
-  line-height: 22px;
   text-align: center;
   font-weight: normal;
   font-family: 'Lucida','Lucida Sans', Helvetica, Arial; }
