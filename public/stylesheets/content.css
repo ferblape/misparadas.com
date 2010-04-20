@@ -33,10 +33,6 @@ button.clean {
   background: transparent;
   border: none; }
 
-a.boton {
-  display: block;
-  text-decoration: none; }
-
 button.boton, a.boton {
   outline: none;
   background: transparent url(/images/sprites.png) -153px 0 no-repeat;
@@ -51,6 +47,11 @@ button.boton, a.boton {
   text-align: center;
   font-weight: normal;
   font-family: 'Lucida','Lucida Sans', Helvetica, Arial; }
+
+a.boton {
+  display: block;
+  text-decoration: none;
+  height: 33px; }
 
 button.boton:hover, a.boton:hover {
   background-position: -153px -40px;
@@ -150,6 +151,12 @@ button.buscar {
         height: 20px;
         text-transform: lowercase;
         color: #999; }
+  .locations.index article.location form button {
+    display: none;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000;
+    font-family: Helvetica, Arial; }
 .locations.index article.location:hover {
   margin: 16px 0px 16px -4px;
   border: 4px solid #8FB8E0;
@@ -181,9 +188,12 @@ button.buscar {
   opacity: 1; }
 .choices.index article.location .routes {
   background-color: white;
-  font-size: 13px; }
+  font-size: 13px;
+  -webkit-box-shadow: 0 1px 2px #bbb;
+  -moz-box-shadow: 0 1px 2px #bbb;
+  box-shadow: 0 1px 2px #bbb; }
   .choices.index article.location .routes .route {
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
     padding: 8px 0px; }
   .choices.index article.location .routes button {
     height: 20px;
