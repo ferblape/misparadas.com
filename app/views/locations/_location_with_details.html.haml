@@ -2,7 +2,7 @@
   %header.roundedTop
     - form_for choice, :html => {:method => :delete} do |f|
       %button.delete.clean{:type => 'submit', :onclick => 'return confirm("¿Estás seguro?")'}
-        = image_tag 'buttons/cross_black.png'
+        = image_tag 'cross.gif'
     %h1
       %span.code= location.emt_code
       = location.name

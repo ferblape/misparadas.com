@@ -7,5 +7,6 @@
 
   - @choices.each do |choice|
     = render :partial => 'locations/location_with_details', :locals => { :location => choice.location, :choice => choice }
-    %p.buttonWrapper
-      = link_to 'Agregar otra parada', locations_path, :class => 'rounded'
+  %div.clear
+  %p.buttonWrapper
+    = link_to 'Agregar otra parada', locations_path, :class => 'boton large'
