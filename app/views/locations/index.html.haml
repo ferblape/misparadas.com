@@ -10,7 +10,7 @@
   - form_for :location, :url => locations_url, :html => {:method => :get} do
     
     .span-7
-      = text_field_tag 'q', params[:q], :class => 'text span-7 rounded'
+      = text_field_tag 'q', params[:q], :class => 'text span-7 rounded', :type => 'number'
 
     = button_tag "Buscar", :type => 'submit', :class => 'buscar boton'
 

@@ -232,7 +232,9 @@ p.empty {
 p.linkInfo {
   background-color: #FFF2D6;
   padding: 10px;
-  border-bottom: solid #ccc 1px; }
+  -webkit-box-shadow: 0 1px 2px #bbb;
+  -moz-box-shadow: 0 1px 2px #bbb;
+  box-shadow: 0 1px 2px #bbb; }
 
 footer.layout {
   margin-top: 50px; }
