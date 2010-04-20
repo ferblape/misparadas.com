@@ -6,6 +6,8 @@ $(document).ready(function() {
   $.Locations.bindings();
 
   Estimates.fetch();
+  
+  $('#q').example("Paradas de autobús cerca de...");
 });
 
 

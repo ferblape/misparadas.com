@@ -10,7 +10,7 @@
       = stylesheet_link_tag 'blueprint/ie'
       = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
     = stylesheet_link_tag ['content'], :cache => 'app'
-    = javascript_include_tag ['jquery', 'jquery-ui', 'jquery.form', 'jrails', 'json2'], :cache => 'jquery.all'
+    = javascript_include_tag ['jquery', 'jquery.form', 'jquery.example.min'], :cache => 'jquery.all'
     = javascript_include_tag 'application'
 
 %body
@@ -24,5 +24,11 @@
       %section.layout.span-10
         = yield
 
-      %footer.layout
-        .span-10
+      %footer.layout.span-10
+        Un proyecto de 
+        <a href="http://samlown.com">Sam Lown</a>,
+        <a href="http://fernando.blat.es/">Fernando Blat</a>,
+        <a href="http://42linesofcode.com/">Christos Zisopoulos</a>,
+        y 
+        <a href="http://blog.duopixel.com/">Mark MacKay</a>
+        para <a href="http://abredatos.es">AbreDatos</a> 2010.
