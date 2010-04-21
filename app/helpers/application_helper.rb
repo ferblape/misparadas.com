@@ -2,16 +2,7 @@
 module ApplicationHelper
 
   def button_tag(text, options = { })
-    content_tag(:div, 
-      content_tag(:button,
-        content_tag(:span, 
-          content_tag(:span,
-            text,
-          :class => 'inside'),
-        :class => 'outside'),
-      options),
-      :class => 'buttonWrap'
-    )
+      content_tag(:button, text, options)
   end
 
   def google_map(lat, lng, opts = {})

@@ -3,9 +3,11 @@
   %head
     %title MisParadas.com
     %meta{'http-equiv' => "content-language", :content => 'es'}
+    %meta{:name => "viewport", :content =>"width=320; initial-scale = .8, user-scalable=0;"}
 
     = stylesheet_link_tag 'blueprint/screen'
     = stylesheet_link_tag 'blueprint/print', :media => :print
+    = stylesheet_link_tag 'iphone', :media => 'handheld, screen and (max-device-width: 480px)'
     /[if IE]
       = stylesheet_link_tag 'blueprint/ie'
       = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
@@ -15,9 +17,8 @@
 
 %body
   %header.layout
-    -#%strong
-      %a{:href => "/acerca"}
-        Acerca de
+    %a{:href => "/locations"}
+      Agregar una parada
   .container
     .span-10
 

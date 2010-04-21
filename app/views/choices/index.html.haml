@@ -1,11 +1,10 @@
 
 %section.choices.index
   %p.linkInfo.rounded
-    Agrega este enlace a tus favoritos para consultarlo después
-    %br
-    = link_to slug_url(:slug => session[:slug])
+    Agrega esta página a tus favoritos para poder consultarla después
 
   - @choices.each do |choice|
     = render :partial => 'locations/location_with_details', :locals => { :location => choice.location, :choice => choice }
-    %p.buttonWrapper
-      = link_to 'Agregar otra parada', locations_path, :class => 'rounded'
+  %div.clear
+  %p.buttonWrapper
+    = link_to 'Agregar otra parada', locations_path, :class => 'boton large'
