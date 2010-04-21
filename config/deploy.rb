@@ -1,11 +1,11 @@
-set :application, "misparadas.com"
+set :application, "staging.misparadas.com"
 set :domain, "misparadas.com"
 
 set :deploy_to, "/home/misparadas/deploy/#{application}"
 
 set :scm, :git
 set :repository,  "git://github.com/ferblape/misparadas.com.git"
-set :branch, "master"
+set :branch, "production"
 set :deploy_via, :remote_cache
 
 set :user, 'misparadas'
