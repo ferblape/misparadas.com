@@ -1,30 +1,29 @@
-%article.location.span-10
-  %header.roundedTop
-    %h1
-      %span.code= location.emt_code
-      = location.name
-      %span.distance= distance_in_meters(location)
-  
+%section.location{'data-expected-url' => arrivals_location_url(location), :id => dom_id(location)}
+  %h1
+    %span.code= "#{location.emt_code} - "
+    = location.name
+    %span.distance= distance_in_meters(location)
+
   = google_map location.lat, location.lng
-
-  .routes.span-10.roundedBottom
+  %ul.routes
     - location.routes.each do |route|
-      .span-10.route
-        .span-3.line
-          %span
-            = "Linea #{route.line.name}"
-        .span-7.last.description
-          .span-7
-            .label desde:
-            .name= route.origin
-          .span-7
-            .label hasta:
-            .name= route.destination
+    
+      %li{:id => dom_id(route)}
+        - if @choices.collect(&:favourite_route).include?(route)
+          - form_for @choices.select {|c| c.favourite_route == route}.first, :html => {:method => :delete, :class => 'choice'} do |f|
+            %button{:type => 'submit'}
+        - else
+          - form_for Choice.new, :html => {:method => :post} do |f|
+            = f.hidden_field :favourite_route_id, :value => route.id
+            = f.hidden_field :location_id, :value => location.id
+            %button{:type => 'submit'}
 
-  %footer
-    - form_for Choice.new do
-      = hidden_field_tag 'location_id', location.id
-      %button Añadir a mis paradas
-
-
+        %strong
+          Linea
+          = route.line.name
+        %span.destination
+          &rarr;
+          = route.destination
+        %span.expected{ :class => "estimate_route_#{route.line.name}" }
+          &hellip;
 

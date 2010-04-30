@@ -4,14 +4,9 @@
     %title MisParadas.com
     %meta{'http-equiv' => "content-language", :content => 'es'}
 
-    = stylesheet_link_tag 'blueprint/screen'
-    = stylesheet_link_tag 'blueprint/print', :media => :print
-    /[if IE]
-      = stylesheet_link_tag 'blueprint/ie'
-      = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
+    = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
     = stylesheet_link_tag ['content'], :cache => 'app'
     = javascript_include_tag ['jquery', 'jquery.form', 'jquery.example.min'], :cache => 'jquery.all'
-    = javascript_include_tag 'application'
 
 %body
   %header.layout
@@ -19,16 +14,17 @@
       %a{:href => "/acerca"}
         Acerca de
   .container
-    .span-10
 
-      %section.layout.span-10
-        = yield
+    %section.layout
+      = yield
 
-      %footer.layout.span-10
-        Un proyecto de 
-        <a href="http://samlown.com">Sam Lown</a>,
-        <a href="http://fernando.blat.es/">Fernando Blat</a>,
-        <a href="http://42linesofcode.com/">Christos Zisopoulos</a>,
-        y 
-        <a href="http://blog.duopixel.com/">Mark MacKay</a>
-        para <a href="http://abredatos.es">AbreDatos</a> 2010.
+    %footer.layout
+      Un proyecto de 
+      <a href="http://samlown.com">Sam Lown</a>,
+      <a href="http://fernando.blat.es/">Fernando Blat</a>,
+      <a href="http://42linesofcode.com/">Christos Zisopoulos</a>,
+      y 
+      <a href="http://blog.duopixel.com/">Mark MacKay</a>
+      para <a href="http://abredatos.es">AbreDatos</a> 2010.
+
+= javascript_include_tag 'application'
