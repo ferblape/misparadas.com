@@ -1,6 +1,9 @@
 class LocationsController < ApplicationController
 
   def index
+    @choices = session[:slug] && Choice.find_all_by_slug(session[:slug], :include => :location) || []
+    @choices_by_location = @choices.group_by{|choice| choice.location}
+    
     if params[:q].present?
       begin
         @locations = Location.find(:all, interpret_search_params(params))
@@ -18,9 +21,6 @@ class LocationsController < ApplicationController
     respond_to do |wants|
       wants.json {  render :json => @location.route_arrivals.to_json }
     end
-  end
-
-  def show
   end
 
   private

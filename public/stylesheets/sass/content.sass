@@ -1,89 +1,40 @@
-
-body
-  background: #eee url(/images/bodybg.png) 0 -1px repeat-x
-  margin-bottom: 50px
-
-.roundedBottom
+=roundedBottom
   -moz-border-radius-bottomleft: 10px
   -webkit-border-bottom-left-radius: 10px
   border-bottom-left-radius: 10px
   -moz-border-radius-bottomright: 10px
   -webkit-border-bottom-right-radius: 10px
   border-bottom-right-radius: 10px
-
-.roundedTop
+  
+=roundedTop
   -moz-border-radius-topleft: 10px
   -webkit-border-top-left-radius: 10px
   border-top-left-radius: 10px
   -moz-border-radius-topright: 10px
   -webkit-border-top-right-radius: 10px
   border-top-right-radius: 10px
-  
-.rounded
-  -moz-border-radius: 5px
-  -webkit-border-radius: 5px
-  border-rounded: 5px
+
+body
+  background: #eee url(/images/bodybg.png) 0 -1px repeat-x
+  padding: 0
+  margin: 0 0 50px 0
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif
+  font-size: 75%
+  line-height: 1.5
 
 .container
   width: 380px
   margin: 0 auto
-  
-button.clean
-  margin: 0
-  padding: 0
-  background: transparent
-  border: none
 
-  
-button.boton, a.boton
-  outline: none
-  background: transparent url(/images/sprites.png) -153px 0 no-repeat
-  padding: 0 0 5px 0
-  margin: 0px 
-  height: 38px
-  border: 0px
-  font-size: 14px
-  width: 105px
-  text-shadow: 0px 1px 1px #fff
-  color: #222
-  text-align: center
-  font-weight: normal
-  font-family: 'Lucida','Lucida Sans', Helvetica, Arial
-
-
-a.boton
+header.layout
+  background: transparent url(/images/footer.png) 0 -1px no-repeat
+  padding:  7px 10px 85px 0
   display: block
-  text-decoration: none
-  height: 33px
-  
-button.boton:hover, a.boton:hover
-  background-position: -153px -40px
-  color: #000
-  border: none
-
-button.boton:active, a.boton:active
-  outline: none
-  background-position: -153px -80px
-  text-shadow: 0px -1px 1px #fff
-  
-button.boton.large, a.boton.large
-  width: 151px
-  background-position: 0 0
-  font-size: 13px
-  line-height: 35px
-
-button.boton.large:hover, a.boton.large:hover
-  background-position: 0 -40px
-
-button.boton.large:active, a.boton.large:active
-  background-position: 0 -80px
-
-.locations.index 
-  h1
-    display: none
-  header
-    h1
-      display: block
+  text-align: right
+  a
+    color: #09f
+      
+/ Locations
 
 p.introduction
   background: #000 url('/images/sprites.png') 0 -120px no-repeat
@@ -97,146 +48,112 @@ p.introduction
   strong
     color: #fff
 
-input.text
-  padding: 7px
-  font-size: 13px
-  background: #fff url(/images/textboxbg.png) top left no-repeat
-  position: relative
-  top: -3px
-
-button.buscar
-  position: absolute
-
-.locations.index, .choices.index
-  article.location
+form.search
+  margin: 0 0 20px 0
+  padding: 0
+  input
+    padding: 7px
+    font-size: 13px
+    background: #fff url(/images/textboxbg.png) top left no-repeat
+    border: 1px solid #c8c8c8
     position: relative
-    margin: 20px 0px
-    header
-      display: block
-      background: #000 url('/images/backgrounds/dark_gradient.png') 0 0 repeat-x
-      text-transform: lowercase
-      padding: 10px
-      h1
-        padding: 0px
-        margin: 0px
-        color: #fff
-        font-size: 15px
-        text-transform: lowercase
-        padding: 0px 10px 
-        font-weight: bold
-
-.locations.index
-  article.location
+    width: 243px
+    margin: 0 10px 0 0
+    -moz-border-radius: 5px
+    -webkit-border-radius: 5px
+    border-rounded: 5px
+  button
+    padding: 1px 0 0 0
+    margin: 0
+    outline: none
     cursor: pointer
-    img
-      display: block
-      border: solid #ccc 1px
-    .routes
-      background-color: white
-      -webkit-box-shadow: 0 1px 2px #bbb
-      -moz-box-shadow: 0 1px 2px #bbb
-      box-shadow: 0 1px 2px #bbb
-      .route
-        padding-top: 10px
-        border-top: 1px solid #eeeeee
-        font-size: 13px
-        line-height: 120%
-        .line
-          padding: 0 0 15px 0px
-          span
-            padding: 0 0 0 15px
-            color: #333
-            font-weight: bold
-        .description
-          .label, .name
-            float: left
-          .label
-            width: 40px
-            text-align: right 
-            padding-right: 4px
-            color: #666
-          .name
-            overflow: hidden
-            height: 20px
-            text-transform: lowercase
-            color: #999
-    form
-      button
-        display: none
-        font-weight: normal
-        font-size: 13px
-        color: #000
-        font-family: Helvetica, Arial
-  article.location:hover
-    margin: 16px 0px 16px -4px
-    border: 4px solid #8FB8E0
-    background-color: #8FB8E0
-    form
-      button
-        position: absolute
-        display: block
-        border: 0
-        margin: 0
-        bottom: 0
-        right: 0
-        background-color: #8FB8E0
-        background-image: none
-        font-size: 13px
-        text-shadow: none
-        width: 155px
-        height: 30px
+    background: transparent url(/images/sprites.png) -151px 0 no-repeat
+    width: auto 
+    height: 40px
+    border: 0px
+    font-size: 14px
+    width: 107px
+    color: #000
+    text-align: center
+    font-weight: normal
+    text-shadow: 0px 1px 1px #fff
+  button:hover
+    background-position: -151px -40px
+  button:active
+    outline: none
+    background-position: -151px -80px
 
-.choices.index
-  article.location
-    header
-      button
-        display: block
-        position: absolute
-        right: 3px
-        top: 5px
-        img
-          width: 16px
-          height: 16px
-          opacity: 0.5
-      button:hover
-        img
-          opacity: 1
-    .routes
-      background-color: white
-      font-size: 13px 
-      -webkit-box-shadow: 0 1px 2px #bbb
-      -moz-box-shadow: 0 1px 2px #bbb
-      box-shadow: 0 1px 2px #bbb
-      .route
-        border-top: 1px solid #eee
-        padding: 8px 0px
-      button
-        height: 20px
-        width: 22px
-        margin: -2px 0px 0px 10px
-
-      .lineDest
-        line-height: 18px
-        vertical-align: middle
-        .line
-          font-weight: bold
-          color: #333
-        .destination
-          color: #999
-          text-transform: lowercase
-      .expected
-        color: #666666
-        font-size: 11px
-
-header.layout
-  background: transparent url(/images/footer.png) 0 -1px no-repeat
-  padding:  7px 10px 0 0
+article.choices, article.results
   display: block
-  a
+  section
     display: block
-    height: 85px
-    text-indent: -9999px
-    width: 380px
+    margin: 0 0 30px 0
+    h1
+      +roundedTop
+      display: block
+      position: relative
+      padding: 6px 20px
+      margin: 0 0 0 0
+      background: #000 url('/images/backgrounds/dark_gradient.png') 0 0 repeat-x
+      font-size: 14px
+      text-transform: lowercase
+      color: #fff
+      img
+        position: absolute
+        top: -10px
+        right: -8px
+        padding: 2px 2px 2px 2px
+        border: 1px solid #ccc
+        background-color: #fff
+        width: 21px
+        height: 21px
+        
+    img
+      vertical-align: bottom
+      border-left: 1px solid #ccc
+      border-right: 1px solid #ccc
+
+article.choices
+  section
+    h1
+      color: #FC6
+      
+ul.routes
+  list-style-type: none
+  padding: 0
+  margin: 0
+  overflow: auto
+  +roundedBottom
+  -webkit-box-shadow: rgb(187, 187, 187) 0px 1px 2px
+  li
+    background-color: #fff
+    border-top: 1px solid #ccc
+    padding: 4px 20px
+    line-height: 30px
+    form
+      display: inline
+      overflow: auto
+      button
+        outline: none
+        border: none
+        cursor: pointer
+        padding: 4px 0 0 0
+        margin: 0 5px 0 0
+        width: 19px
+        height: 23px
+    form.new_choice button
+      background: #fff url('/images/buttons/star_empty.png') 0 0 repeat-x
+    form.choice button
+      background: #fff url('/images/buttons/star_selected.png') 0 0 repeat-x
+        
+    strong
+      font-size: 13px
+    span
+      color: #999
+      text-transform: lowercase
+    span.expected
+      float: right
+    
 p.empty
   font-size: 24px
   color: #999
@@ -245,13 +162,12 @@ p.empty
 p.linkInfo
   background-color: #FFF2D6
   padding: 10px
-  -webkit-box-shadow: 0 1px 2px #bbb
-  -moz-box-shadow: 0 1px 2px #bbb
-  box-shadow: 0 1px 2px #bbb
+  border-bottom: solid #ccc 1px
+  +roundedBottom
+  +roundedTop
   
-footer.layout
-  margin-top: 50px
+
   
-  
-  
-  
+
+
+

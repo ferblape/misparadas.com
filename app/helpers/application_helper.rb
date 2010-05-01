@@ -1,16 +1,12 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
-  def button_tag(text, options = { })
-      content_tag(:button, text, options)
-  end
-
   def google_map(lat, lng, opts = {})
     opts.reverse_merge!({
       :center => "#{lat},#{lng}",
       :zoom => "16",
       :markers => "size:small|color:black|#{lat},#{lng}",
-      :size => "378x250",
+      :size => "378x200",
       :sensor => "false"
     })
     (wd, ht) = opts[:size].split('x')

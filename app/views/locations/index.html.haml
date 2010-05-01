@@ -1,21 +1,36 @@
-.locations.index
+%p.introduction
+  %strong
+    Busca los horarios de la EMT Madrid<br />
+  Escribe un número de parada o una dirección cercana a la parada que deseas utilizar
 
-  %h1 Mis Paradas 
+- form_for :location, :url => locations_url, :html => {:method => :get, :class => 'search'} do
+  = text_field_tag 'q', params[:q], :pattern => '[0-9]*'
+  %button{:type => 'submit', :class => 'buscar'}
+    %span Buscar
 
-  %p.introduction
-    %strong
-      Busca los horarios de la EMT Madrid<br />
-    Escribe un número de parada o una dirección cercana a la parada que deseas utilizar
 
-  - form_for :location, :url => locations_url, :html => {:method => :get} do
-    
-    .span-7
-      = text_field_tag 'q', params[:q], :class => 'text span-7 rounded', :type => 'number'
-    .span-1.last
-      = button_tag "Buscar", :type => 'submit', :class => 'buscar boton'
+%article.results
+  = render @locations
+  - if @locations.empty? && params[:q]
+    %p.empty
+      No hemos encontrado paradas en la dirección que has indicado. Revisa la sintaxis, y si crees que es correcta prueba a poner más información, como calle, o plaza.
 
-  .span-8
-    = render @locations
 
-    = "<p class='empty'>No hemos encontrado paradas en la dirección que has indicado. Revisa la sintaxis, y si crees que es correcta prueba a poner más información, como calle, o plaza.</p>" if @locations.empty? && params[:q]
+- if @choices_by_location.present?
+  %article.choices
+    - @choices_by_location.each do |location, choices|
+
+      %section.location{'data-expected-url' => arrivals_location_url(location), :id => dom_id(location)}
+        %h1
+          %span.code= "#{location.emt_code} - "
+          = location.name
+          %span.distance= distance_in_meters(location)
+
+        %ul.routes
+          = render choices
+
+-unless @choices.empty?
+  %p.linkInfo.roundedTop.roundedBottom
+    Accede tu pagina de paradas favoritas a traves de este URL:
+    = link_to slug_url(:slug => session[:slug]), slug_url(:slug => session[:slug])
 

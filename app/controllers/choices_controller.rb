@@ -3,38 +3,24 @@ class ChoicesController < ApplicationController
   def index
     if session[:slug] != params[:slug] && params[:slug].present?
       session[:slug] = params[:slug]
-      redirect_to slug_path(:slug => session[:slug]) 
+      redirect_to slug_path(:slug => session[:slug])
+    else
+      redirect_to root_path
     end
 
-    @choices = Choice.find_all_by_slug(session[:slug]) 
-    if @choices.empty? 
-      (redirect_to locations_path and return)
-    end
   end
 
   def create
     session[:slug] ||= Choice.generate_slug
     
-    @choice = Choice.find_or_initialize_by_location_id_and_slug(:location_id => params[:location_id], :slug => session[:slug])
+    @choice = Choice.find_or_initialize_by_favourite_route_id_and_slug(params[:choice].merge(:slug => session[:slug]))
 
     if @choice.save
       flash[:notice] = "We have added your bus stop as a favourite"
-      redirect_to slug_path(:slug => session[:slug])
     else
       flash[:error] = "We couldn't save your bus stop"
-      redirect_to :back
     end
-  end
-
-  def update
-    @choice = Choice.find(params[:id])
-    if @choice.update_attributes(params[:choice])
-      flash[:notice] = "We have added your bus stop as a favourite"
-      redirect_to :back
-    else
-      flash[:error] = "We couldn't save your bus stop"
-      redirect_to :back
-    end
+    redirect_to :back
   end
 
   def destroy

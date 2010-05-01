@@ -1,5 +1,8 @@
+- Use header gradient image from sprite (for IE compatiblity)
+- Investigate various locations without and routes
+- Merge Mark's CSS iPhone stylesheet
+
 - Rake task to remove Locations that are not on the website
 - Rake task to add Route destinations
 - Cache http requests
 - Parallelize http request
-- Move ETA requests to an ajax call?
