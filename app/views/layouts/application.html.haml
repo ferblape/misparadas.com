@@ -4,12 +4,12 @@
     %title MisParadas.com
     %meta{'http-equiv' => "content-language", :content => 'es'}
     %meta{:name => "viewport", :content =>"width=320; initial-scale = .8, user-scalable=0;"}
-	
-	/[if IE]
-	    = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
+
+  /[if IE]
+    = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
     
-	= stylesheet_link_tag ['content'], :cache => 'app'
-    = javascript_include_tag ['jquery', 'jquery.form', 'jquery.example.min'], :cache => 'jquery.all'
+  = stylesheet_link_tag ['content'], :cache => 'app'
+  = javascript_include_tag ['jquery', 'jquery.form', 'jquery.example.min'], :cache => 'jquery.all'
 
 %body
   %header.layout
