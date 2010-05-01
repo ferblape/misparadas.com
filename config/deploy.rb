@@ -18,7 +18,7 @@ role :db,  "www.#{domain}", :primary => true
 
 # Move over the configurations
 task :update_links do
-  run "cp -f #{shared_path}/config/database.yml #{current_path}/config/"
+  run "cp -f #{shared_path}/config/database.yml #{release_path}/config/"
   # Add the image sym links
   #['planet', 'web_feed'].each do |link|
   #  run "ln -s #{shared_path}/system/images/#{link} #{current_path}/public/images/#{link}"
@@ -33,5 +33,5 @@ namespace :deploy do
 end
 
 
-after 'deploy', :update_links
+after 'deploy:update_code', :update_links
 
