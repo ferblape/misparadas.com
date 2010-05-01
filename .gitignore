@@ -1,7 +1,6 @@
 tmp/*
 log/*
 public/uploads/*
-vendor/rails
 nbproject
 .svn
 db/schema.rb
