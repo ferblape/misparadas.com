@@ -1,8 +1,9 @@
-%p.introduction
-  %strong
-    Busca los horarios de la EMT Madrid<br />
-  Escribe un número de parada o una dirección cercana a la parada que deseas utilizar
-
+- if @show_intro
+  %p.introduction
+    %strong
+      ¿Cuando llega mi autobús?<br />
+    Tiempos de espera para los próximos autobuses de la EMT Madrid en tu parada.
+    
 - form_for :location, :url => locations_url, :html => {:method => :get, :class => 'search'} do
   = text_field_tag 'q', params[:q], :type => 'number'
   %button{:type => 'submit', :class => 'buscar'}
@@ -10,13 +11,22 @@
 
 
 %article.results
+  -if @locations.present? && @choices.empty?
+    %p.linkInfo.roundedTop.roundedBottom
+      Pincha en una estrella para guardar tu linea favorita
+      
   = render @locations
   - if @locations.empty? && params[:q]
     %p.empty
-      No hemos encontrado paradas en la dirección que has indicado. Revisa la sintaxis, y si crees que es correcta prueba a poner más información, como calle, o plaza.
+      No hemos encontrado el número de parada o la dirección que has indicado.
+    %p.empty
+      Intenta ser más específico indicando el tipo de vía: calle, plaza, avenida...
+    %p.empty
+      El número de parada lo puedes encontrar en la marquesina del autobús.
 
 
 - if @choices_by_location.present?
+
   %article.choices
     - @choices_by_location.each do |location, choices|
 
@@ -29,8 +39,8 @@
         %ul.routes
           = render choices
 
--unless @choices.empty?
+- if session[:slug].present?
   %p.linkInfo.roundedTop.roundedBottom
-    Accede tu pagina de paradas favoritas a traves de este URL:
+    Para poder volver a tus paradas, añade este URL a tus favoritos: 
     = link_to slug_url(:slug => session[:slug]), slug_url(:slug => session[:slug])
 

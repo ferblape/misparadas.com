@@ -1,15 +1,5 @@
 class ChoicesController < ApplicationController
 
-  def index
-    if session[:slug] != params[:slug] && params[:slug].present?
-      session[:slug] = params[:slug]
-      redirect_to slug_path(:slug => session[:slug])
-    else
-      redirect_to root_path
-    end
-
-  end
-
   def create
     session[:slug] ||= Choice.generate_slug
     

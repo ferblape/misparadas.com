@@ -1,10 +1,12 @@
 $(document).ready(function() {
 
   $('input.text.rounded').focus();
-
-  Estimates.fetch();
   
-  $('#q').example("Paradas de autobús cerca de...");
+  setTimeout(function() {
+    Estimates.fetch();    
+  }, 500);
+  
+  $('#q').example("Número de parada o dirección...");
 });
 
 var Estimates = {

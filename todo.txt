@@ -1,5 +1,7 @@
+- Investigate lines without routes (e.g. cibeles)
+- Show introduction paragraph if no search and no choices
 - Use header gradient image from sprite (for IE compatiblity)
-- Investigate various locations without and routes
+- Investigate whay various locations are without routes
 - Merge Mark's CSS iPhone stylesheet
 
 - Rake task to remove Locations that are not on the website

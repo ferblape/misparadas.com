@@ -1,8 +1,21 @@
 class LocationsController < ApplicationController
 
   def index
+    if params[:slug].present?
+      session[:slug] = params[:slug]
+    end
+    
+    if session[:slug].present? && params[:slug].blank? && params[:q].blank?
+      redirect_to slug_path(:slug => session[:slug])
+    end
+    
     @choices = session[:slug] && Choice.find_all_by_slug(session[:slug], :include => :location) || []
     @choices_by_location = @choices.group_by{|choice| choice.location}
+    
+    if @choices.empty?
+      session[:slug] = nil
+    end
+    
     
     if params[:q].present?
       begin
@@ -14,6 +27,9 @@ class LocationsController < ApplicationController
       @locations = []
       flash[:alert] = "Debes de indicar una dirección física. Por ejemplo: Paseo Recoletos"
     end
+
+    @show_intro = @choices.empty? && @locations.empty?
+
   end
 
   def arrivals

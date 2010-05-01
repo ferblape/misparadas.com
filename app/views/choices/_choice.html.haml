@@ -1,12 +1,12 @@
 %li{:id => dom_id(choice.favourite_route)}
+  %p.expected{ :class => "estimate_route_#{choice.favourite_route.line.name}" }
+    &hellip;
   - form_for choice, :html => {:method => :delete, :class => 'choice'} do |f|
     %button{:type => 'submit'}
       
-  %strong
-    Linea
-    = choice.favourite_route.line.name
-  %span.destination
-    &rarr;
-    = choice.favourite_route.destination
-  %span.expected{ :class => "estimate_route_#{choice.favourite_route.line.name}" }
-    &hellip;
+    %strong
+      Linea
+      = choice.favourite_route.line.name
+    %span.destination
+      &rarr;
+      = choice.favourite_route.destination

@@ -10,20 +10,28 @@
     
       %li{:id => dom_id(route)}
         - if @choices.collect(&:favourite_route).include?(route)
+          %p.expected{ :class => "estimate_route_#{route.line.try(:name)}" }
+            &hellip;
           - form_for @choices.select {|c| c.favourite_route == route}.first, :html => {:method => :delete, :class => 'choice'} do |f|
             %button{:type => 'submit'}
+            %strong
+              Linea
+              = route.line.name
+            %span.destination
+              &rarr;
+              = route.destination
         - else
+          %p.expected{ :class => "estimate_route_#{route.line.try(:name)}" }
+            &hellip;
           - form_for Choice.new, :html => {:method => :post} do |f|
             = f.hidden_field :favourite_route_id, :value => route.id
             = f.hidden_field :location_id, :value => location.id
             %button{:type => 'submit'}
 
-        %strong
-          Linea
-          = route.line.name
-        %span.destination
-          &rarr;
-          = route.destination
-        %span.expected{ :class => "estimate_route_#{route.line.name}" }
-          &hellip;
+            %strong
+              Linea
+              = route.line.try(:name)
+            %span.destination
+              &rarr;
+              = route.destination
 

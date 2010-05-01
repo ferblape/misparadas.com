@@ -15,8 +15,8 @@ header.layout {
   padding: 7px 10px 85px 0;
   display: block;
   text-align: right; }
-  header.layout a {
-    color: #09f; }
+  header.layout h1 {
+    display: none; }
 
 
 p.introduction {
@@ -25,7 +25,7 @@ p.introduction {
   color: #ccc;
   font-size: 15px;
   padding: 10px 10px 30px 10px;
-  height: 60px;
+  height: 59px;
   line-height: 130%;
   margin-bottom: 3px; }
   p.introduction strong {
@@ -80,8 +80,8 @@ article.choices, article.results {
       border-top-right-radius: 10px;
       display: block;
       position: relative;
-      padding: 6px 20px;
-      margin: 0 0 0 0;
+      padding: 5px 15px;
+      margin: 20px 0 0 0;
       background: #000 url('/images/backgrounds/dark_gradient.png') 0 0 repeat-x;
       font-size: 14px;
       text-transform: lowercase;
@@ -118,44 +118,46 @@ ul.routes {
   ul.routes li {
     background-color: #fff;
     border-top: 1px solid #ccc;
-    padding: 4px 20px;
-    line-height: 18px;
+    padding: 10px 15px;
     overflow: auto;
-    min-height: 30px; }
+    line-height: 24px;
+    font-size: 13px; }
     ul.routes li form {
-      display: inline;
       overflow: auto; }
+      ul.routes li form span.destination {
+        color: #999;
+        text-transform: lowercase;
+        text-indent: 30px; }
       ul.routes li form button {
         outline: none;
         border: none;
         cursor: pointer;
-        padding: 4px 0 0 0;
+        padding: 0 0 0 0;
         margin: 0 5px 0 0;
         width: 19px;
-        height: 23px; }
+        height: 19px;
+        line-height: 24px; }
     ul.routes li form.new_choice button {
-      background: #fff url('/images/buttons/star_empty.png') 0 0 repeat-x; }
+      background: #fff url('/images/buttons/star_empty.png') 0 0 no-repeat; }
     ul.routes li form.choice button {
-      background: #fff url('/images/buttons/star_selected.png') 0 0 repeat-x; }
-    ul.routes li strong {
-      font-size: 13px; }
-    ul.routes li span {
-      color: #999;
-      text-transform: lowercase; }
-    ul.routes li span.expected {
-      float: right; }
+      background: #fff url('/images/buttons/star_selected.png') 0 0 no-repeat; }
+    ul.routes li p.expected {
+      float: right;
+      line-height: 25px;
+      margin: 0 0 0 3px; }
 
 form input.example {
   color: #999; }
 
 p.empty {
-  font-size: 24px;
+  font-size: 20px;
   color: #999;
   line-height: 130%; }
 
 p.linkInfo {
   background-color: #FFF2D6;
-  padding: 10px;
+  font-weight: bold;
+  padding: 10px 15px;
   border-bottom: solid #ccc 1px;
   -webkit-box-shadow: 0 1px 2px #bbb;
   -moz-box-shadow: 0 1px 2px #bbb;
