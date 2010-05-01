@@ -4,7 +4,7 @@
   Escribe un número de parada o una dirección cercana a la parada que deseas utilizar
 
 - form_for :location, :url => locations_url, :html => {:method => :get, :class => 'search'} do
-  = text_field_tag 'q', params[:q], :pattern => '[0-9]*'
+  = text_field_tag 'q', params[:q], :type => 'number'
   %button{:type => 'submit', :class => 'buscar'}
     %span Buscar
 

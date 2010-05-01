@@ -9,13 +9,12 @@
     = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
     
   = stylesheet_link_tag ['content'], :cache => 'app'
+  = stylesheet_link_tag 'iphone', :media => 'handheld, screen and (max-device-width: 480px)'
   = javascript_include_tag ['jquery', 'jquery.form', 'jquery.example.min'], :cache => 'jquery.all'
 
 %body
   %header.layout
-    -#%strong
-      %a{:href => "/acerca"}
-        Acerca de
+  
   .container
 
     %section.layout

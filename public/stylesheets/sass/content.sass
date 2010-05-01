@@ -14,6 +14,11 @@
   -webkit-border-top-right-radius: 10px
   border-top-right-radius: 10px
 
+=boxShadows
+  -webkit-box-shadow: 0 1px 2px #bbb
+  -moz-box-shadow: 0 1px 2px #bbb
+  box-shadow: 0 1px 2px #bbb
+  
 body
   background: #eee url(/images/bodybg.png) 0 -1px repeat-x
   padding: 0
@@ -129,7 +134,9 @@ ul.routes
     background-color: #fff
     border-top: 1px solid #ccc
     padding: 4px 20px
-    line-height: 30px
+    line-height: 18px
+    overflow: auto
+    min-height: 30px
     form
       display: inline
       overflow: auto
@@ -153,7 +160,10 @@ ul.routes
       text-transform: lowercase
     span.expected
       float: right
-    
+
+form input.example
+  color: #999
+
 p.empty
   font-size: 24px
   color: #999
@@ -163,6 +173,7 @@ p.linkInfo
   background-color: #FFF2D6
   padding: 10px
   border-bottom: solid #ccc 1px
+  +boxShadows
   +roundedBottom
   +roundedTop
   

@@ -119,7 +119,9 @@ ul.routes {
     background-color: #fff;
     border-top: 1px solid #ccc;
     padding: 4px 20px;
-    line-height: 30px; }
+    line-height: 18px;
+    overflow: auto;
+    min-height: 30px; }
     ul.routes li form {
       display: inline;
       overflow: auto; }
@@ -143,6 +145,9 @@ ul.routes {
     ul.routes li span.expected {
       float: right; }
 
+form input.example {
+  color: #999; }
+
 p.empty {
   font-size: 24px;
   color: #999;
@@ -152,6 +157,9 @@ p.linkInfo {
   background-color: #FFF2D6;
   padding: 10px;
   border-bottom: solid #ccc 1px;
+  -webkit-box-shadow: 0 1px 2px #bbb;
+  -moz-box-shadow: 0 1px 2px #bbb;
+  box-shadow: 0 1px 2px #bbb;
   -moz-border-radius-bottomleft: 10px;
   -webkit-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
